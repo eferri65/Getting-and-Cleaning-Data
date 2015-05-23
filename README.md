@@ -27,7 +27,8 @@ refer to the paper from and the thread
 [https://github.com/rdpeng/ProgrammingAssignment2](https://github.com/rdpeng/ProgrammingAssignment2)
 
 *concerns about duplicate names
-*what I did prior to run ning the code
+
+*what I did prior to running the code
 
  
 
