@@ -30,6 +30,13 @@ refer to the paper from and the thread
 
 *what I did prior to running the code
 
+*data quality
+
+* N/A
+
+* factors 
+
+
  
 
  
