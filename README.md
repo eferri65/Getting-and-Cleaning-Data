@@ -7,4 +7,4 @@
 #####4. The output of the R script
  
 
-# Instructions on how to run the script named run-analysis.R
+# Instructions on how to run the script named run_analysis.R
