@@ -57,9 +57,9 @@ tBodyAccJerkMean
 tBodyGyroMean
 tBodyGyroJerkMean
 
-The complete list of variables of each feature vector is available in 'features.txt'
+The complete list of 561 variables of each feature vector( sourced from 'features.txt' )
 
-1 tBodyAcc-mean()-X
+1. tBodyAcc-mean()-X
 2 tBodyAcc-mean()-Y
 3 tBodyAcc-mean()-Z
 4 tBodyAcc-std()-X
