@@ -1,8 +1,7 @@
-# Codebook
-Feature Selection 
+Codebook
 =================
 
-*The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and *tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then *they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 *Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals *(tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
 Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
 
@@ -51,52 +50,52 @@ The set of variables that were estimated from these signals are:
 
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
-gravityMean
-tBodyAccMean
-tBodyAccJerkMean
-tBodyGyroMean
-tBodyGyroJerkMean
+* gravityMean
+* tBodyAccMean
+* tBodyAccJerkMean
+* tBodyGyroMean
+* tBodyGyroJerkMean
 
 The complete list of 561 variables of each feature vector( sourced from 'features.txt' )
 
-1. tBodyAcc-mean()-X
-2. tBodyAcc-mean()-Y
-3. tBodyAcc-mean()-Z
-4. tBodyAcc-std()-X
-5. tBodyAcc-std()-Y
-6. tBodyAcc-std()-Z
-7. tBodyAcc-mad()-X
-8. tBodyAcc-mad()-Y
-9. tBodyAcc-mad()-Z
-10. tBodyAcc-max()-X
-11. tBodyAcc-max()-Y
-12. tBodyAcc-max()-Z
-13. tBodyAcc-min()-X
-14. tBodyAcc-min()-Y
-15. tBodyAcc-min()-Z
-16. tBodyAcc-sma()
-17. tBodyAcc-energy()-X
-18. tBodyAcc-energy()-Y
-19. tBodyAcc-energy()-Z
-20. tBodyAcc-iqr()-X
-21. tBodyAcc-iqr()-Y
-22. tBodyAcc-iqr()-Z
-23. tBodyAcc-entropy()-X
-24. tBodyAcc-entropy()-Y
-25. tBodyAcc-entropy()-Z
-26. tBodyAcc-arCoeff()-X,1
-27. tBodyAcc-arCoeff()-X,2
-28. tBodyAcc-arCoeff()-X,3
-29. tBodyAcc-arCoeff()-X,4
-30. tBodyAcc-arCoeff()-Y,1
-31. tBodyAcc-arCoeff()-Y,2
-32. tBodyAcc-arCoeff()-Y,3
-33. tBodyAcc-arCoeff()-Y,4
-34. tBodyAcc-arCoeff()-Z,1
-35. tBodyAcc-arCoeff()-Z,2
-36. tBodyAcc-arCoeff()-Z,3
-37. tBodyAcc-arCoeff()-Z,4
-38. tBodyAcc-correlation()-X,Y
+1. tBodyAcc-mean()-X: mean of time body accelation signals on X axis
+2. tBodyAcc-mean()-Y: mean of time body accelation signal on Y axis
+3. tBodyAcc-mean()-Z: mean of time body accelation signal on Z axis
+4. tBodyAcc-std()-X: standard deviation of time body accelation signals on X axis
+5. tBodyAcc-std()-Y: standard deviation of time body accelation signals on Y axis
+6. tBodyAcc-std()-Z: standard deviation of time body accelation signals on Z axis
+7. tBodyAcc-mad()-X: median absolute deviation of time body accelation signals on X axis
+8. tBodyAcc-mad()-Y: median absolute deviation of time body accelation signals on Y axis
+9. tBodyAcc-mad()-Z: median absolute deviation of time body accelation signals on Z axis
+10. tBodyAcc-max()-X: largest value of time body accelation signals on X axis
+11. tBodyAcc-max()-Y: largest value of time body accelation signals on Y axis
+12. tBodyAcc-max()-Z: largest value of time body accelation signals on Z axis
+13. tBodyAcc-min()-X: smallest value of time body accelation signals on X axis
+14. tBodyAcc-min()-Y: smallest value of time body accelation signals on Y axis
+15. tBodyAcc-min()-Z: smallest value of time body accelation signals on Z axis
+16. tBodyAcc-sma(): time body accelation signals magnitude area
+17. tBodyAcc-energy()-X: energy measure of time body accelation signals on X axis 
+18. tBodyAcc-energy()-Y: energy measure of time body accelation signals on Y axis 
+19. tBodyAcc-energy()-Z: energy measure of time body accelation signals on Z axis 
+20. tBodyAcc-iqr()-X: interquartile range for time body accelation signals on X axis
+21. tBodyAcc-iqr()-Y: interquartile range for time body accelation signals on Y axis
+22. tBodyAcc-iqr()-Z: interquartile range for time body accelation signals on Z axis
+23. tBodyAcc-entropy()-X: entropy for time body accelation signals on X axis
+24. tBodyAcc-entropy()-Y: entropy for time body accelation signals on Y axis
+25. tBodyAcc-entropy()-Z: entropy for time body accelation signals on Z axis
+26. tBodyAcc-arCoeff()-X,1: Autorregresion coefficients with Burg order equal to 4 for time body accelation signals on X axis - 1
+27. tBodyAcc-arCoeff()-X,2: Autorregresion coefficients with Burg order equal to 4 for time body accelation signals on X axis - 2
+28. tBodyAcc-arCoeff()-X,3: Autorregresion coefficients with Burg order equal to 4 for time body accelation signals on X axis - 3
+29. tBodyAcc-arCoeff()-X,4: Autorregresion coefficients with Burg order equal to 4 for time body accelation signals on X axis - 4
+30. tBodyAcc-arCoeff()-Y,1: Autorregresion coefficients with Burg order equal to 4 for time body accelation signals on Y axis - 1
+31. tBodyAcc-arCoeff()-Y,2: Autorregresion coefficients with Burg order equal to 4 for time body accelation signals on Y axis - 2
+32. tBodyAcc-arCoeff()-Y,3: Autorregresion coefficients with Burg order equal to 4 for time body accelation signals on Y axis - 3
+33. tBodyAcc-arCoeff()-Y,4: Autorregresion coefficients with Burg order equal to 4 for time body accelation signals on Y axis - 4
+34. tBodyAcc-arCoeff()-Z,1: Autorregresion coefficients with Burg order equal to 4 for time body accelation signals on Z axis - 1
+35. tBodyAcc-arCoeff()-Z,2: Autorregresion coefficients with Burg order equal to 4 for time body accelation signals on Z axis - 2
+36. tBodyAcc-arCoeff()-Z,3: Autorregresion coefficients with Burg order equal to 4 for time body accelation signals on Z axis - 3
+37. tBodyAcc-arCoeff()-Z,4: Autorregresion coefficients with Burg order equal to 4 for time body accelation signals on Z axis - 4
+38. tBodyAcc-correlation()-X,Y: correlation coefficient bet
 39. tBodyAcc-correlation()-X,Z
 40. tBodyAcc-correlation()-Y,Z
 41. tGravityAcc-mean()-X
