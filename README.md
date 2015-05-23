@@ -1,8 +1,8 @@
+
+
+
+
 # Getting-and-Cleaning-Data
-
-#####As required, I submitted the following files:
-
-How to share data with a statistician
 ===========
 
 This is a guide for anyone who needs to share data with a statistician. The target audiences I have in mind are:
@@ -23,6 +23,8 @@ to see the raw data, understand the steps in
 The first function, `makeVector` creates a special "vector", which is
 really a list containing a function to
 
+
+
 1.  set the value of the vector
 2.  get the value of the vector
 3.  set the value of the mean
@@ -41,6 +43,8 @@ really a list containing a function to
             getmean <- function() m
             list(set = set, get = get,
                  setmean = setmean,
+
+
                  getmean = getmean)
     }
 
@@ -104,12 +108,12 @@ In order to complete this assignment, you must do the following:
 ### Grading
 
 
+As required, I submitted the following files:
 
-
-#####1. This Readme markdown file
-#####2. An R script named run_analysis.R
-#####3. A markdown file called Codebook
-#####4. The output of the R script
+1. This Readme markdown file
+2. An R script named run_analysis.R
+3. A markdown file called Codebook
+4. The output of the R script
  
 
 ###Instructions on how to run the script named run_analysis.R
