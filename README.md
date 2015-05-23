@@ -14,11 +14,11 @@ As required, I submitted the following files:
 1. Ensure you are using the same file structure as the UCI HAR Dataset dowloaded for the assignment
 2. Set your working directory at the topp level of the UCI HAR Dataset, which the script will assign to be the root directory
  
-*To run the script
+*To run the script:
+
 1. load(run_analysis.R)
 2. run-analysis.R
 3. the file will generate a file called final_dataset.txt
-
 
 *why the data is tydy
 refer to the paper from and the thread
