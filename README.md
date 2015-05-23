@@ -8,17 +8,24 @@ As required, I submitted the following files:
 3. A markdown file called Codebook
 4. The output of the R script
  
-
 ###Instructions on how to run the script named run_analysis.R
 
-
-
-
-
-* Scientific collaborators who need statisticians to analyze data for them
-* Students or postdocs in scientific disciplines looking for consulting advice
-* Junior statistics students whose job it is to collate/clean data sets
+*Assumptions: 
+1. Ensure you are using the same file structure as the UCI HAR Dataset dowloaded for the assignment
+2. Set your working directory at the topp level of the UCI HAR Dataset, which the script will assign to be the root directory
  
+*To run the script
+1. load(run_analysis.R)
+2. run-analysis.R
+3. the file will generate a file called final_dataset.txt
+
+
+*why the data is tydy
+refer to the paper from and the thread
+
+*concerns about duplicate names
+*what I did prior to run ning the code
+
 
 The first function, `makeVector` creates a special "vector", which is
 really a list containing a function to
@@ -80,11 +87,6 @@ function.
 Computing the inverse of a square matrix can be done with the `solve`
 function in R. For example, if `X` is a square invertible matrix, then
 `solve(X)` returns its inverse.
-
-For this assignment, assume that the matrix supplied is always
-invertible.
-
-In order to complete this assignment, you must do the following:
 
 1.  Fork the GitHub repository containing the stub R files at
     [https://github.com/rdpeng/ProgrammingAssignment2](https://github.com/rdpeng/ProgrammingAssignment2)
