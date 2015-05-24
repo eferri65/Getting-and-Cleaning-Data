@@ -76,40 +76,41 @@ Find below the definitions of the variable names for which the SummaryMean_ are 
  37.  tBodyGyroMag-mean(): mean of computed magnitude (Euclidean norm) of time body gyroscope signals             
  38.  tBodyGyroMag-std():  standard devitaion of computed magnitude (Euclidean norm) of time body gyroscope signals 
  39.  tBodyGyroJerkMag-mean(): mean of computed magnitude (Euclidean norm) of jerk signals for of time body gyroscope signals          
- 40.  tBodyGyroJerkMag-std(): standard deviation of computed magnitude (Euclidean norm) of jerk signals for of time body gyroscope signals                     
-41. fBodyAcc-mean()-X: mean of computed (FFT) frequency domain signals for time body acceleration signals on X axis 
-42. fBodyAcc-mean()-Y: mean of computed (FFT) frequency domain signals for time body acceleration signals on Y axis 
-43. fBodyAcc-mean()-Z: mean of computed (FFT) frequency domain signals for time body acceleration signals on Z axis 
-44. fBodyAcc-std()-X:  standard deviation of computed (FFT) frequency domain signals for time body acceleration signals on X axis 
-45. fBodyAcc-std()-Y:  standard deviation of computed (FFT) frequency domain signals for time body acceleration signals on Y axis 
-46. fBodyAcc-std()-Z:  standard deviation of computed (FFT) frequency domain signals for time body acceleration signals on Z axis 
-47. fBodyAcc-meanFreq()-X: weighted average of computed (FFT) frequency domain signals for time body acceleration signals on X axis           
-48. fBodyAcc-meanFreq()-Y: weighted average of computed (FFT) frequency domain signals for time body acceleration signals on Y axis           
-49. fBodyAcc-meanFreq()-Z: weighted average of computed (FFT) frequency domain signals for time body acceleration signals on Z axis           
-50. fBodyAccJerk-mean()-X:  mean of computed (FFT) frequency domain signals of derived jerk signals for time body acceleration signals on X axis           
-51. fBodyAccJerk-mean()-Y:  mean of computed (FFT) frequency domain signals of derived jerk signals for time body acceleration signals on Y axis           
-52. fBodyAccJerk-mean()-Z:  mean of computed (FFT) frequency domain signals of derived jerk signals for time body acceleration signals on Z axis           
-53. fBodyAccJerk-std()-X: standard deviation of computed (FFT) frequency domain signals of derived jerk signals for time body acceleration signals on X axis                      
-54. fBodyAccJerk-std()-Y: standard deviation of computed (FFT) frequency domain signals of derived jerk signals for time body acceleration signals on Y axis                                 
-55. fBodyAccJerk-std()-Z: standard deviation of computed (FFT) frequency domain signals of derived jerk signals for time body acceleration signals on Z axis                                  
-56. fBodyAccJerk-meanFreq()-X: weighted average of computed (FFT) frequency domain signals of derived jerk signals for time body acceleration signals on X axis      
-57. fBodyAccJerk-meanFreq()-Y:  weighted average of computed (FFT) frequency domain signals of derived jerk signalsfor time body acceleration signals on Y axis      
-58. fBodyAccJerk-meanFreq()-Z: weighted average  of computed (FFT) frequency domain signals of derived jerk signalsfor time body acceleration signals on Z axis       
-59.fBodyGyro-mean()-X:  mean of computed (FFT) frequency domain signals for time body gyroscope signals on X axis   
-60.fBodyGyro-mean()-Y:  mean of computed (FFT) frequency domain signals for time body gyroscope signals on Y axis   
-61.fBodyGyro-mean()-Z:  mean of computed (FFT) frequency domain signals for time body gyroscope  signals on Z axis  62.fBodyGyro-std()-X: standard deviation of computed (FFT) frequency domain signals for body gyroscope signals on X axis              
-63.fBodyGyro-std()-Y: standard deviation  of computed (FFT) frequency domain signals for body gyroscope signals on Y axis               
-64.fBodyGyro-std()-Z: standard deviation  of computed (FFT) frequency domain signals for body gyroscope signals on Z axis               
- $ fBodyGyro-meanFreq()-X: weighted average of computed (FFT) frequency domain signals for time body gyroscope signals on X axis              
- $ fBodyGyro-meanFreq()-Y: weighted average of computed (FFT) frequency domain signals for time body gyroscope signals on Y axis                       
- $ fBodyGyro-meanFreq()-Z: weighted average of computed (FFT) frequency domain signals for time body gyroscope signals on Z axis                       
- $ fBodyAccMag-mean(): mean of computed magnitude (Euclidean norm) of frequency signals for body accelartion signal 
- $ fBodyAccMag-std(): standard deviation of computed magnitude (Euclidean norm) of frequency signals for body accelartion signal  
- $ fBodyAccMag-meanFreq(): weighted average of computed (FFT) frequency doamin signals for body acceleration signal magnitude   
+ 40.  tBodyGyroJerkMag-std(): standard deviation of computed magnitude (Euclidean norm) of jerk signals for of time body gyroscope signals 
+ 41.  fBodyAcc-mean()-X: mean of computed (FFT) frequency domain signals for time body acceleration signals on X axis 
+ 42.  fBodyAcc-mean()-Y: mean of computed (FFT) frequency domain signals for time body acceleration signals on Y axis 
+ 43.  fBodyAcc-mean()-Z: mean of computed (FFT) frequency domain signals for time body acceleration signals on Z axis 
+ 44.  fBodyAcc-std()-X:  standard deviation of computed (FFT) frequency domain signals for time body acceleration signals on X axis 
+ 45.  fBodyAcc-std()-Y:  standard deviation of computed (FFT) frequency domain signals for time body acceleration signals on Y axis 
+ 46.  fBodyAcc-std()-Z:  standard deviation of computed (FFT) frequency domain signals for time body acceleration signals on Z axis 
+ 47.  fBodyAcc-meanFreq()-X: weighted average of computed (FFT) frequency domain signals for time body acceleration signals on X axis           
+ 48.  fBodyAcc-meanFreq()-Y: weighted average of computed (FFT) frequency domain signals for time body acceleration signals on Y axis           
+ 49.  fBodyAcc-meanFreq()-Z: weighted average of computed (FFT) frequency domain signals for time body acceleration signals on Z axis           
+ 50.  fBodyAccJerk-mean()-X:  mean of computed (FFT) frequency domain signals of derived jerk signals for time body acceleration signals on X axis           
+ 51.  fBodyAccJerk-mean()-Y:  mean of computed (FFT) frequency domain signals of derived jerk signals for time body acceleration signals on Y axis           
+ 52.  fBodyAccJerk-mean()-Z:  mean of computed (FFT) frequency domain signals of derived jerk signals for time body acceleration signals on Z axis           
+ 53.  fBodyAccJerk-std()-X: standard deviation of computed (FFT) frequency domain signals of derived jerk signals for time body acceleration signals on X axis                      
+ 54.  fBodyAccJerk-std()-Y: standard deviation of computed (FFT) frequency domain signals of derived jerk signals for time body acceleration signals on Y axis                                 
+ 55.  fBodyAccJerk-std()-Z: standard deviation of computed (FFT) frequency domain signals of derived jerk signals for time body acceleration signals on Z axis                          
+ 56.  fBodyAccJerk-meanFreq()-X: weighted average of computed (FFT) frequency domain signals of derived jerk signals for time body acceleration signals on X axis      
+ 57.  fBodyAccJerk-meanFreq()-Y:  weighted average of computed (FFT) frequency domain signals of derived jerk signalsfor time body acceleration signals on Y axis     
+ 58.  fBodyAccJerk-meanFreq()-Z: weighted average  of computed (FFT) frequency domain signals of derived jerk signalsfor time body acceleration signals on Z axis       
+ 59.  fBodyGyro-mean()-X:  mean of computed (FFT) frequency domain signals for time body gyroscope signals on X axis
+ 60.  fBodyGyro-mean()-Y:  mean of computed (FFT) frequency domain signals for time body gyroscope signals on Y axis
+ 61.  fBodyGyro-mean()-Z:  mean of computed (FFT) frequency domain signals for time body gyroscope  signals on Z axis  
+ 62. fBodyGyro-std()-X: standard deviation of computed (FFT) frequency domain signals for body gyroscope signals on X axis
+ 63. fBodyGyro-std()-Y: standard deviation  of computed (FFT) frequency domain signals for body gyroscope signals on Y axis               
+ 64. fBodyGyro-std()-Z: standard deviation  of computed (FFT) frequency domain signals for body gyroscope signals on Z axis
+ 65. fBodyGyro-meanFreq()-X: weighted average of computed (FFT) frequency domain signals for time body gyroscope signals on X axi
+ 66. fBodyGyro-meanFreq()-Y: weighted average of computed (FFT) frequency domain signals for time body gyroscope signals on Y axis
+ 67. fBodyGyro-meanFreq()-Z: weighted average of computed (FFT) frequency domain signals for time body gyroscope signals on Z axis                       
+ 68. fBodyAccMag-mean(): mean of computed magnitude (Euclidean norm) of frequency signals for body accelartion signal 
+ 69. fBodyAccMag-std(): standard deviation of computed magnitude (Euclidean norm) of frequency signals for body accelartion signal
+ 70. fBodyAccMag-meanFreq(): weighted average of computed (FFT) frequency doamin signals for body acceleration signal magnitude   
  
 the following columns do not make sense to me
 
-$ fBodyBodyAccJerkMag-mean(): mean of computed magnitude (Euclidean norm) of frequency body gyroscope signals       
+ $ fBodyBodyAccJerkMag-mean(): mean of computed magnitude (Euclidean norm) of frequency body gyroscope signals      
  $ fBodyBodyAccJerkMag-std():        
  $ fBodyBodyAccJerkMag-meanFreq():   
  $ fBodyBodyGyroMag-mean():         
