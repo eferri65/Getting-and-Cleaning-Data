@@ -17,7 +17,7 @@ As required by the assignment, the `Getting-and-Cleaning-Data repo` contains the
  
 ###2. Instructions on how to run the script named `run_analysis.R`
 
-Assumptions: 
+Assumptions - A MUST: 
 
 1. Use the SAME file structure as the `UCI HAR Dataset` dowloaded for the assignment
 2. Set your working directory at the top level of the `UCI HAR Dataset`, which the script will assign to be the root directory
