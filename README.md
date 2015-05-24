@@ -13,29 +13,47 @@ As required by the assignment, the `Getting-and-Cleaning-Data repo` contains the
 
 1. This `Readme` markdown file: it gives you a roadmap of the repo and describes how to run the R script included in the repo  
 2. An R script named `run_analysis.R`: the script used to generate the final tidy data set required by the project
-3. A markdown file called `Codebook`: it describes the tidy data set, why it is tidy and the definition of the ciolumns in the final dataset
+3. A markdown file called `Codebook`: it describes the tidy data set, why it is tidy and the definition of the columns in the final dataset
  
 ###2. Instructions on how to run the script named `run_analysis.R`
 
-Assumptions: 
+Assumptions - A MUST: 
 
 1. Use the SAME file structure as the `UCI HAR Dataset` dowloaded for the assignment
-2. Set your working directory at the top level of the `UCI HAR Dataset`, which the script will assign to be the root directory
+2. Set your working directory at the top level of the `UCI HAR Dataset` like so: 
+   setwd("YOUR_PATH_HERE/UCI HAR Dataset")
  
 To run the R script:
 
 <!-- -->
-    1. step 1: run the script; load it in RStudio, select all the lines and run it or source(run_analysis.R)
-    2. step 2: check the output file called `final_dataset.txt` located in the UCI HAR Dataset             
-    folder/directory
+    1. step 1: look at the script; it has `comments` for each step required by the assignment. Summary:
+    
+    * does not use the Inertial Signal data
+    * gets the activity and features data common for the test and train data
+    * gets the test data
+    * gets the train data
+    * clips test and train data into one frame: they have the SAME columns ("Subject", "Activity", 561 
+    features variables)
+    * extracts only the measurements on the mean and standard deviation for each measurement
+    * uses descriptive activity names to name the activities in the data set
+    * filters out columns containing "BodyBody" because they do not make sense 
+    * creates a second, independent tidy data set with the average of each variable for each activity and each 
+    subject.
+    
+    2. step 2: run the script; load it in RStudio, select all the lines and run it or 
+    source(run_analysis.R)
+    
+    3. step 3: check the output file called `final_dataset.txt` located in the UCI HAR Dataset             
+    folder/directory; to read it do: 
+    `final<-read.table("final_dataset", header=TRUE)`
 
 Note: I have a Mac and when the `run_analysis.R`script saved the file `final_dataset.txt` using `write.table(tt_subset_summary, "final_dataset", row.names = FALSE)` as requested by the the project instructions, the kind of file is not `txt` but `TextEd...ument`.
 
-Here is the result of `str(tt_subset_summary)`, where `tt_subset_summary` is the dataframe written into `final_dataset.txt`; it is basically a summary table with 180 rows and 81 variables:
+Here is the result of `str(tt_subset_summary)`, where `tt_subset_summary` is the dataframe written into `final_dataset.txt`; it is basically a summary table with 180 rows and 72 variables:
 
 <!-- -->
     str(tt_subset_summary)
-    'data.frame':	180 obs. of  81 variables:
+    'data.frame':	180 obs. of  72 variables:
     $ Activity                                    : Factor w/ 6 levels "LAYING","SITTING",..: 1 1 1 1 1 1 1 1 1 1 ...
     $ Subject                                     : int  1 2 3 4 5 6 7 8 9 10 ...
     $ SummaryMean_ tBodyAcc-mean()-X              : num  0.222 0.281 0.276 0.264 0.278 ...
@@ -108,6 +126,12 @@ Here is the result of `str(tt_subset_summary)`, where `tt_subset_summary` is the
     $ SummaryMean_ fBodyAccMag-mean()             : num  -0.862 -0.975 -0.966 -0.939 -0.962 ...
     $ SummaryMean_ fBodyAccMag-std()              : num  -0.798 -0.975 -0.968 -0.937 -0.963 ...
     $ SummaryMean_ fBodyAccMag-meanFreq()         : num  0.0864 0.2663 0.237 0.2417 0.292 ...
+
+
+Note 1: Per requested, I extracted the columns which represent the measurements on the `mean and standard deviation for each measurement`. I intentionally excluded  the `angle` columns where the `Mean` is a paramenter.
+
+Note 2: I decided to filter out the following 9 columns containing "BobyBody", that is "Body" repeated twice as I point out in the Codebook, because I could not explain that scenario:
+
     $ SummaryMean_ fBodyBodyAccJerkMag-mean()     : num  -0.933 -0.985 -0.976 -0.962 -0.977 ...
     $ SummaryMean_ fBodyBodyAccJerkMag-std()      : num  -0.922 -0.985 -0.975 -0.958 -0.976 ...
     $ SummaryMean_ fBodyBodyAccJerkMag-meanFreq() : num  0.266 0.342 0.239 0.274 0.197 ...
@@ -117,12 +141,7 @@ Here is the result of `str(tt_subset_summary)`, where `tt_subset_summary` is the
     $ SummaryMean_ fBodyBodyGyroJerkMag-mean()    : num  -0.942 -0.99 -0.984 -0.984 -0.985 ...
     $ SummaryMean_ fBodyBodyGyroJerkMag-std()     : num  -0.933 -0.989 -0.983 -0.983 -0.983 ...
     $ SummaryMean_ fBodyBodyGyroJerkMag-meanFreq(): num  0.1765 0.2648 0.1107 0.2029 0.0247 ...
-> 
-
-
- 
  
 
- 
 
 
