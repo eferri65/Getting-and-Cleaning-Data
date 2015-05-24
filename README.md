@@ -9,9 +9,8 @@ As required by the assignment, this repot contains the following files:
  
 ###Instructions on how to run the script named `run_analysis.R`
 
-*Assumptions: 
-
-1. Ensure you are using the same file structure as the `UCI HAR Dataset` dowloaded for the assignment
+Assumptions: 
+1. Use the SAME file structure as the `UCI HAR Dataset` dowloaded for the assignment
 2. Set your working directory at the top level of the `UCI HAR Dataset`, which the script will assign to be the root directory
  
 *To run the script:
