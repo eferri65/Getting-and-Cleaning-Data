@@ -109,9 +109,10 @@ Here is the result of `str(tt_subset_summary)`, where `tt_subset_summary` is the
     $ SummaryMean_ fBodyAccMag-std()              : num  -0.798 -0.975 -0.968 -0.937 -0.963 ...
     $ SummaryMean_ fBodyAccMag-meanFreq()         : num  0.0864 0.2663 0.237 0.2417 0.292 ...
 
-Impottant Notes:
 
-* I decided to filter out the following 9 columns containing "BobyBody", that is "Body" repeated twice as I point out in the Codebook, because I could not explain that scenario:
+Note 1: Per requested, I extracted the columns which represents the measurements on the `mean and standard deviation for each measurement`. I intentionally excluded  the `angle` columns where the `Mean` is a paramenter.
+
+Note 2: I decided to filter out the following 9 columns containing "BobyBody", that is "Body" repeated twice as I point out in the Codebook, because I could not explain that scenario:
 
     $ SummaryMean_ fBodyBodyAccJerkMag-mean()     : num  -0.933 -0.985 -0.976 -0.962 -0.977 ...
     $ SummaryMean_ fBodyBodyAccJerkMag-std()      : num  -0.922 -0.985 -0.975 -0.958 -0.976 ...
@@ -123,6 +124,6 @@ Impottant Notes:
     $ SummaryMean_ fBodyBodyGyroJerkMag-std()     : num  -0.933 -0.989 -0.983 -0.983 -0.983 ...
     $ SummaryMean_ fBodyBodyGyroJerkMag-meanFreq(): num  0.1765 0.2648 0.1107 0.2029 0.0247 ...
  
-* Per requested, I extracted the columns which represents the measurements on the `mean and standard deviation for each measurement`. I intentionally filtered out all the `angle` columns where the `Mean` is a paramenter.
+
 
 
