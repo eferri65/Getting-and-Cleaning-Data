@@ -148,10 +148,11 @@ Tidy data thread at [https://class.coursera.org/getdata-014/forum/thread?thread_
 4. All the rows contain different observations
 
 Some examples of why the variables have a built-in recepi:
--all the variable names have a `t` or an `f` the beginning, distinguishing bewteen the time or frequency domain
--the feature name follows immediately the prefix `t` or `f`
--the measurement type (example: mean() or std()) always follows the variable name
--when applicable, the variable names terminates with X or Y or Z to specify the axial direction of the signal
+
+* all the variable names have a `t` or an `f` the beginning, distinguishing bewteen the time or frequency domain
+* the feature name follows immediately the prefix `t` or `f`
+* the measurement type (example: mean() or std()) always follows the variable name
+* when applicable, the variable names terminates with X or Y or Z to specify the axial direction of the signal
 
 Now, I do not know if the data is correct, i.e. if the values are meaningful.
 I checked there are no N/A's with `sapply(tt_subset_summary , function(x)all(is.na(x)))`
