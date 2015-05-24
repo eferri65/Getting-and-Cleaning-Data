@@ -7,7 +7,7 @@ This Codebook is divided into the following sections:
 
 1. Description of the final dataset
 2. Is the final dataset tidy?
-3. Evolution from Raw Data to final dataset; some information is sourced from  `feautures_info.ext`
+3. Evolution from Raw Data to final dataset; some information is sourced from  `feautures_info.text`
 
 ###1. Description of the final dataset
 The final dataset is created by `run_analysis.R` script following the assignment instruction of step 5, which requires to create an independent tidy data set with the 'average of each variable for each activity and each subject'.
