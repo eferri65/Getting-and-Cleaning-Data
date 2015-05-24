@@ -26,7 +26,8 @@ Assumptions - A MUST:
 To run the R script:
 
 <!-- -->
-    1. step 1: look at the script; it has `comments` for each step required by the assignment
+    1. step 1: look at the script; it has `comments` for each step required by the assignment. Summary:
+    
     * does not use the Inertial Signal data
     * gets the activity and features data common for the test and train data
     * gets the test data
@@ -37,6 +38,7 @@ To run the R script:
     * filters out columns containing "BodyBody" because they do not make sense 
     * creates a second, independent tidy data set with the average of each variable for each activity and each 
     subject.
+    
     2. step 2: run the script; load it in RStudio, select all the lines and run it or 
     source(run_analysis.R)
     3. step 3: check the output file called `final_dataset.txt` located in the UCI HAR Dataset             
