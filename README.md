@@ -33,7 +33,7 @@ To run the R script:
     * gets the test data
     * gets the train data
     * clips test and train data into one frame: they have the SAME columns ("Subject", "Activity", 561 
-    features)
+    features variables)
     * extracts only the measurements on the mean and standard deviation for each measurement
     * uses descriptive activity names to name the activities in the data set
     * filters out columns containing "BodyBody" because they do not make sense 
