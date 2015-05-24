@@ -29,17 +29,94 @@ is implemented as Factor w/ 6 levels:
 6. LAYING
 
 `Subject`: identifies the individual (aka Subject) who is performing the Activity; it is a numeric id which
-ranges from 1 to 30; in R is implemente as an int =  1 2 3 4 5 6 7 8 9 10 ...30
+ranges from 1 to 30; in R is implemented as an int =  1 2 3 4 5 6 7 8 9 10 ...30
     
 `SummaryMean_ variable name`: All the remaining 79 columns are computed means; they all have the prefix `SummaryMean_` to indicate that they ares ummary means of the variable names captured in the character string that follows the prefix. For Example:
     
 `SummaryMean_ tBodyAcc-mean()-X` is the calculated summary mean of `tBodyAcc-mean()-X` by Activity by Subject
     
-Find below the definitions of the variable names for which the SummaryMean_ are computed:    
-    
+Find below the definitions of the variable names for which the SummaryMean_ are computed; they all are num:   
 
+ 1. tBodyAcc-mean()-X:  mean of time body accelation signals on X axis              
+ 2. tBodyAcc-mean()-Y:  mean of time body accelation signals on Y axis               
+ 3. tBodyAcc-mean()-Z:  mean of time body accelation signals on Z axis
+ 4. tBodyAcc-std()-X: standard deviation of time body accelation signals on X axis
+ 5. tBodyAcc-std()-Y: standard deviation of time body accelation signals on Y axis
+ 6. tBodyAcc-std()-Z: standard deviation of time body accelation signals on Z axis
+ 7. tGravityAcc-mean()-X: mean of time gravity accelation signals on X axis
+ 8. tGravityAcc-mean()-Y: mean of time gravity accelation signals on Y axis
+ 9. tGravityAcc-mean()-Z: mean of time gravity accelation signals on Z axis
+10. tGravityAcc-std()-X: standard deviation of time gravity accelation signals on X axis
+11. tGravityAcc-std()-Y: standard deviation of time gravity accelation signals on Y axis
+12. tGravityAcc-std()-Z: standard deviation of time gravity accelation signals on Z axis
+13. tBodyAccJerk-mean()-X: mean of derived jerk signals for time body accelation signals on X axis          
+14. tBodyAccJerk-mean()-Y: mean of derived jerk signals for time body accelation signals on Y axis           
+15. tBodyAccJerk-mean()-Z: mean of derived jerk signals for time body accelation signals on Z axis           
+16. tBodyAccJerk-std()-X: standard deviation of derived jerk signals for time body acceleration signals on X axis  
+17. tBodyAccJerk-std()-Y: standard deviation of derived jerk signals for time body acceleration signals on Y axis  
+18. tBodyAccJerk-std()-Z: standard deviation of derived jerk signals for time body acceleration signals on Z axis    
 
-
+ $ tBodyGyro-mean()-X             
+ $ tBodyGyro-mean()-Y              
+ $ tBodyGyro-mean()-Z              
+ $ tBodyGyro-std()-X               
+ $ tBodyGyro-std()-Y               
+ $ tBodyGyro-std()-Z               
+ $ tBodyGyroJerk-mean()-X          
+ $ tBodyGyroJerk-mean()-Y          
+ $ tBodyGyroJerk-mean()-Z         
+ $ tBodyGyroJerk-std()-X           
+ $ tBodyGyroJerk-std()-Y           
+ $ tBodyGyroJerk-std()-Z          
+ $ tBodyAccMag-mean()              
+ $ tBodyAccMag-std()              
+ $ tGravityAccMag-mean()           
+ $ tGravityAccMag-std()           
+ $ tBodyAccJerkMag-mean()          
+ $ tBodyAccJerkMag-std()           
+ $ tBodyGyroMag-mean()             
+ $ tBodyGyroMag-std()              
+ $ tBodyGyroJerkMag-mean()         
+ $ tBodyGyroJerkMag-std()          
+ $ fBodyAcc-mean()-X               
+ $ fBodyAcc-mean()-Y               
+ $ fBodyAcc-mean()-Z               
+ $ fBodyAcc-std()-X                
+ $ fBodyAcc-std()-Y                
+ $ fBodyAcc-std()-Z                
+ $ fBodyAcc-meanFreq()-X           
+ $ fBodyAcc-meanFreq()-Y           
+ $ fBodyAcc-meanFreq()-Z           
+ $ fBodyAccJerk-mean()-X           
+ $ fBodyAccJerk-mean()-Y           
+ $ fBodyAccJerk-mean()-Z           
+ $ fBodyAccJerk-std()-X           
+ $ fBodyAccJerk-std()-Y            
+ $ fBodyAccJerk-std()-Z            
+ $ fBodyAccJerk-meanFreq()-X      
+ $ fBodyAccJerk-meanFreq()-Y      
+ $ fBodyAccJerk-meanFreq()-Z       
+ $ fBodyGyro-mean()-X             
+ $ fBodyGyro-mean()-Y              
+ $ fBodyGyro-mean()-Z             
+ $ fBodyGyro-std()-X              
+ $ fBodyGyro-std()-Y               
+ $ fBodyGyro-std()-Z               
+ $ fBodyGyro-meanFreq()-X          
+ $ fBodyGyro-meanFreq()-Y        
+ $ fBodyGyro-meanFreq()-Z         
+ $ fBodyAccMag-mean()              
+ $ fBodyAccMag-std()               
+ $ fBodyAccMag-meanFreq()          
+ $ fBodyBodyAccJerkMag-mean()      
+ $ fBodyBodyAccJerkMag-std()       
+ $ fBodyBodyAccJerkMag-meanFreq()  
+ $ fBodyBodyGyroMag-mean()        
+ $ fBodyBodyGyroMag-std()          
+ $ fBodyBodyGyroMag-meanFreq()    
+ $ fBodyBodyGyroJerkMag-mean()    
+ $ fBodyBodyGyroJerkMag-std()      
+ $ fBodyBodyGyroJerkMag-meanFreq() 
 
 
 ###2. Is the final dataset tidy?
