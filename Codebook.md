@@ -160,21 +160,21 @@ The complete list of 561 variables of each feature vector( sourced from 'feature
 100. tBodyAccJerk-iqr()-X: interquartile range for derived jerk signals for time gravity accelation signals on X axis
 101. tBodyAccJerk-iqr()-Y: interquartile range for derived jerk signals for time gravity accelation signals on Y axis
 102. tBodyAccJerk-iqr()-Z: interquartile range for derived jerk signals for time gravity accelation signals on Z axis
-103. tBodyAccJerk-entropy()-X 
-104. tBodyAccJerk-entropy()-Y
-105. tBodyAccJerk-entropy()-Z
-106. tBodyAccJerk-arCoeff()-X,1
-107. tBodyAccJerk-arCoeff()-X,2
-108. tBodyAccJerk-arCoeff()-X,3
-109. tBodyAccJerk-arCoeff()-X,4
-110. tBodyAccJerk-arCoeff()-Y,1
-111. tBodyAccJerk-arCoeff()-Y,2
-112. tBodyAccJerk-arCoeff()-Y,3
-113. tBodyAccJerk-arCoeff()-Y,4
-114. tBodyAccJerk-arCoeff()-Z,1
-115. tBodyAccJerk-arCoeff()-Z,2
-116. tBodyAccJerk-arCoeff()-Z,3
-117. tBodyAccJerk-arCoeff()-Z,4
+103. tBodyAccJerk-entropy()-X: entropy for time gravity accelation signals on X axis 
+104. tBodyAccJerk-entropy()-Y: entropy for time gravity accelation signals on X axis
+105. tBodyAccJerk-entropy()-Z: entropy for time gravity accelation signals on X axis
+106. tBodyAccJerk-arCoeff()-X,1: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
+107. tBodyAccJerk-arCoeff()-X,2: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
+108. tBodyAccJerk-arCoeff()-X,3: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
+109. tBodyAccJerk-arCoeff()-X,4: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
+110. tBodyAccJerk-arCoeff()-Y,1: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
+111. tBodyAccJerk-arCoeff()-Y,2 Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
+112. tBodyAccJerk-arCoeff()-Y,3: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
+113. tBodyAccJerk-arCoeff()-Y,4: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
+114. tBodyAccJerk-arCoeff()-Z,1: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
+115. tBodyAccJerk-arCoeff()-Z,2: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
+116. tBodyAccJerk-arCoeff()-Z,3: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
+117. tBodyAccJerk-arCoeff()-Z,4: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
 118. tBodyAccJerk-correlation()-X,Y
 119. tBodyAccJerk-correlation()-X,Z
 120. tBodyAccJerk-correlation()-Y,Z
@@ -200,21 +200,21 @@ The complete list of 561 variables of each feature vector( sourced from 'feature
 140. tBodyGyro-iqr()-X
 141. tBodyGyro-iqr()-Y
 142. tBodyGyro-iqr()-Z
-143. tBodyGyro-entropy()-X
-144. tBodyGyro-entropy()-Y
-145. tBodyGyro-entropy()-Z
-146. tBodyGyro-arCoeff()-X,1
-147. tBodyGyro-arCoeff()-X,2
-148. tBodyGyro-arCoeff()-X,3
-149. tBodyGyro-arCoeff()-X,4
-150. tBodyGyro-arCoeff()-Y,1
-151. tBodyGyro-arCoeff()-Y,2
-152. tBodyGyro-arCoeff()-Y,3
-153. tBodyGyro-arCoeff()-Y,4
-154. tBodyGyro-arCoeff()-Z,1
-155. tBodyGyro-arCoeff()-Z,2
-156. tBodyGyro-arCoeff()-Z,3
-157. tBodyGyro-arCoeff()-Z,4
+143. tBodyGyro-entropy()-X: entropy for time gravity accelation signals on X axis
+144. tBodyGyro-entropy()-Y: entropy for time gravity accelation signals on X axis
+145. tBodyGyro-entropy()-Z: entropy for time gravity accelation signals on X axis
+146. tBodyGyro-arCoeff()-X,1: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
+147. tBodyGyro-arCoeff()-X,2: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
+148. tBodyGyro-arCoeff()-X,3: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
+149. tBodyGyro-arCoeff()-X,4: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
+150. tBodyGyro-arCoeff()-Y,1:  Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
+151. tBodyGyro-arCoeff()-Y,2: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
+152. tBodyGyro-arCoeff()-Y,3: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
+153. tBodyGyro-arCoeff()-Y,4: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
+154. tBodyGyro-arCoeff()-Z,1: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
+155. tBodyGyro-arCoeff()-Z,2: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
+156. tBodyGyro-arCoeff()-Z,3 :Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
+157. tBodyGyro-arCoeff()-Z,4: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
 158. tBodyGyro-correlation()-X,Y
 159. tBodyGyro-correlation()-X,Z
 160. tBodyGyro-correlation()-Y,Z
@@ -240,21 +240,21 @@ The complete list of 561 variables of each feature vector( sourced from 'feature
 180. tBodyGyroJerk-iqr()-X
 181. tBodyGyroJerk-iqr()-Y
 182. tBodyGyroJerk-iqr()-Z
-183. tBodyGyroJerk-entropy()-X
-184. tBodyGyroJerk-entropy()-Y
-185. tBodyGyroJerk-entropy()-Z
-186. tBodyGyroJerk-arCoeff()-X,1
-187. tBodyGyroJerk-arCoeff()-X,2
-188. tBodyGyroJerk-arCoeff()-X,3
-189. tBodyGyroJerk-arCoeff()-X,4
-190. tBodyGyroJerk-arCoeff()-Y,1
-191. tBodyGyroJerk-arCoeff()-Y,2
-192. tBodyGyroJerk-arCoeff()-Y,3
-193. tBodyGyroJerk-arCoeff()-Y,4
-194. tBodyGyroJerk-arCoeff()-Z,1
-195. tBodyGyroJerk-arCoeff()-Z,2
-196. tBodyGyroJerk-arCoeff()-Z,3
-197. tBodyGyroJerk-arCoeff()-Z,4
+183. tBodyGyroJerk-entropy()-X: entropy for time gravity accelation signals on X axis
+184. tBodyGyroJerk-entropy()-Y: entropy for time gravity accelation signals on X axis
+185. tBodyGyroJerk-entropy()-Z: entropy for time gravity accelation signals on X axis
+186. tBodyGyroJerk-arCoeff()-X,1: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
+187. tBodyGyroJerk-arCoeff()-X,2: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
+188. tBodyGyroJerk-arCoeff()-X,3: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
+189. tBodyGyroJerk-arCoeff()-X,4: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
+190. tBodyGyroJerk-arCoeff()-Y,1: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
+191. tBodyGyroJerk-arCoeff()-Y,2: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
+192. tBodyGyroJerk-arCoeff()-Y,3: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
+193. tBodyGyroJerk-arCoeff()-Y,4: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
+194. tBodyGyroJerk-arCoeff()-Z,1: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
+195. tBodyGyroJerk-arCoeff()-Z,2: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
+196. tBodyGyroJerk-arCoeff()-Z,3: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
+197. tBodyGyroJerk-arCoeff()-Z,4: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
 198. tBodyGyroJerk-correlation()-X,Y
 199. tBodyGyroJerk-correlation()-X,Z
 200. tBodyGyroJerk-correlation()-Y,Z
@@ -360,48 +360,48 @@ The complete list of 561 variables of each feature vector( sourced from 'feature
 300. fBodyAcc-kurtosis()-Y
 301. fBodyAcc-skewness()-Z
 302. fBodyAcc-kurtosis()-Z
-303. fBodyAcc-bandsEnergy()-1,8
-304. fBodyAcc-bandsEnergy()-9,16
-305. fBodyAcc-bandsEnergy()-17,24
-306. fBodyAcc-bandsEnergy()-25,32
-307. fBodyAcc-bandsEnergy()-33,40
-308. fBodyAcc-bandsEnergy()-41,48
-309. fBodyAcc-bandsEnergy()-49,56
-310. fBodyAcc-bandsEnergy()-57,64
-311. fBodyAcc-bandsEnergy()-1,16
-312. fBodyAcc-bandsEnergy()-17,32
-313. fBodyAcc-bandsEnergy()-33,48
-314. fBodyAcc-bandsEnergy()-49,64
-315. fBodyAcc-bandsEnergy()-1,24
-316. fBodyAcc-bandsEnergy()-25,48
-317. fBodyAcc-bandsEnergy()-1,8
-318. fBodyAcc-bandsEnergy()-9,16
-319. fBodyAcc-bandsEnergy()-17,24
-320. fBodyAcc-bandsEnergy()-25,32
-321. fBodyAcc-bandsEnergy()-33,40
-322. fBodyAcc-bandsEnergy()-41,48
-323. fBodyAcc-bandsEnergy()-49,56
-324. fBodyAcc-bandsEnergy()-57,64
-325. fBodyAcc-bandsEnergy()-1,16
-326. fBodyAcc-bandsEnergy()-17,32
-327. fBodyAcc-bandsEnergy()-33,48
-328. fBodyAcc-bandsEnergy()-49,64
-329. fBodyAcc-bandsEnergy()-1,24
-330. fBodyAcc-bandsEnergy()-25,48
-331. fBodyAcc-bandsEnergy()-1,8
-332. fBodyAcc-bandsEnergy()-9,16
-333. fBodyAcc-bandsEnergy()-17,24
-334. fBodyAcc-bandsEnergy()-25,32
-335. fBodyAcc-bandsEnergy()-33,40
-336. fBodyAcc-bandsEnergy()-41,48
-337. fBodyAcc-bandsEnergy()-49,56
-338. fBodyAcc-bandsEnergy()-57,64
-339. fBodyAcc-bandsEnergy()-1,16
-340. fBodyAcc-bandsEnergy()-17,32
-341. fBodyAcc-bandsEnergy()-33,48
-342. fBodyAcc-bandsEnergy()-49,64
-343. fBodyAcc-bandsEnergy()-1,24
-344. fBodyAcc-bandsEnergy()-25,48
+303. fBodyAcc-bandsEnergy()-1,8: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+304. fBodyAcc-bandsEnergy()-9,16: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+305. fBodyAcc-bandsEnergy()-17,24: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+306. fBodyAcc-bandsEnergy()-25,32: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+307. fBodyAcc-bandsEnergy()-33,40 energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+308. fBodyAcc-bandsEnergy()-41,48: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+309. fBodyAcc-bandsEnergy()-49,56: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+310. fBodyAcc-bandsEnergy()-57,64: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+311. fBodyAcc-bandsEnergy()-1,16: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+312. fBodyAcc-bandsEnergy()-17,32: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+313. fBodyAcc-bandsEnergy()-33,48: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+314. fBodyAcc-bandsEnergy()-49,64: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+315. fBodyAcc-bandsEnergy()-1,24: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+316. fBodyAcc-bandsEnergy()-25,48: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+317. fBodyAcc-bandsEnergy()-1,8: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+318. fBodyAcc-bandsEnergy()-9,16: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+319. fBodyAcc-bandsEnergy()-17,24: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+320. fBodyAcc-bandsEnergy()-25,32: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+321. fBodyAcc-bandsEnergy()-33,40: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+322. fBodyAcc-bandsEnergy()-41,48: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+323. fBodyAcc-bandsEnergy()-49,56 energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+324. fBodyAcc-bandsEnergy()-57,64: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+325. fBodyAcc-bandsEnergy()-1,16: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+326. fBodyAcc-bandsEnergy()-17,32: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+327. fBodyAcc-bandsEnergy()-33,48: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+328. fBodyAcc-bandsEnergy()-49,64: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+329. fBodyAcc-bandsEnergy()-1,24: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+330. fBodyAcc-bandsEnergy()-25,48: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals  
+331. fBodyAcc-bandsEnergy()-1,8: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+332. fBodyAcc-bandsEnergy()-9,16: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+333. fBodyAcc-bandsEnergy()-17,24: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+334. fBodyAcc-bandsEnergy()-25,32: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+335. fBodyAcc-bandsEnergy()-33,40: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+336. fBodyAcc-bandsEnergy()-41,48: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+337. fBodyAcc-bandsEnergy()-49,56: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+338. fBodyAcc-bandsEnergy()-57,64: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+339. fBodyAcc-bandsEnergy()-1,16: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+340. fBodyAcc-bandsEnergy()-17,32: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+341. fBodyAcc-bandsEnergy()-33,48: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+342. fBodyAcc-bandsEnergy()-49,64: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+343. fBodyAcc-bandsEnergy()-1,24: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+344. fBodyAcc-bandsEnergy()-25,48: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
 345. fBodyAccJerk-mean()-X
 346. fBodyAccJerk-mean()-Y
 347. fBodyAccJerk-mean()-Z
@@ -439,127 +439,127 @@ The complete list of 561 variables of each feature vector( sourced from 'feature
 379. fBodyAccJerk-kurtosis()-Y
 380. fBodyAccJerk-skewness()-Z
 381. fBodyAccJerk-kurtosis()-Z
-382. fBodyAccJerk-bandsEnergy()-1,8
-383. fBodyAccJerk-bandsEnergy()-9,16
-384. fBodyAccJerk-bandsEnergy()-17,24
-385. fBodyAccJerk-bandsEnergy()-25,32
-386. fBodyAccJerk-bandsEnergy()-33,40
-387. fBodyAccJerk-bandsEnergy()-41,48
-388. fBodyAccJerk-bandsEnergy()-49,56
-389. fBodyAccJerk-bandsEnergy()-57,64
-390. fBodyAccJerk-bandsEnergy()-1,16
-391. fBodyAccJerk-bandsEnergy()-17,32
-392. fBodyAccJerk-bandsEnergy()-33,48
-393. fBodyAccJerk-bandsEnergy()-49,64
-394. fBodyAccJerk-bandsEnergy()-1,24
-395. fBodyAccJerk-bandsEnergy()-25,48
-396. fBodyAccJerk-bandsEnergy()-1,8
-397. fBodyAccJerk-bandsEnergy()-9,16
-398. fBodyAccJerk-bandsEnergy()-17,24
-399. fBodyAccJerk-bandsEnergy()-25,32
-400. fBodyAccJerk-bandsEnergy()-33,40
-401. fBodyAccJerk-bandsEnergy()-41,48
-402. fBodyAccJerk-bandsEnergy()-49,56
-403. fBodyAccJerk-bandsEnergy()-57,64
-404. fBodyAccJerk-bandsEnergy()-1,16
-405. fBodyAccJerk-bandsEnergy()-17,32
-406. fBodyAccJerk-bandsEnergy()-33,48
-407. fBodyAccJerk-bandsEnergy()-49,64
-408, fBodyAccJerk-bandsEnergy()-1,24
-409, fBodyAccJerk-bandsEnergy()-25,48
-410, fBodyAccJerk-bandsEnergy()-1,8
-411, fBodyAccJerk-bandsEnergy()-9,16
-412. fBodyAccJerk-bandsEnergy()-17,24
-413. fBodyAccJerk-bandsEnergy()-25,32
-414. fBodyAccJerk-bandsEnergy()-33,40
-415. fBodyAccJerk-bandsEnergy()-41,48
-416. fBodyAccJerk-bandsEnergy()-49,56
-417. fBodyAccJerk-bandsEnergy()-57,64
-418. fBodyAccJerk-bandsEnergy()-1,16
-419. fBodyAccJerk-bandsEnergy()-17,32
-420. fBodyAccJerk-bandsEnergy()-33,48
-421. fBodyAccJerk-bandsEnergy()-49,64
-422. fBodyAccJerk-bandsEnergy()-1,24
-423. fBodyAccJerk-bandsEnergy()-25,48
+382. fBodyAccJerk-bandsEnergy()-1,8: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+383. fBodyAccJerk-bandsEnergy()-9,16: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+384. fBodyAccJerk-bandsEnergy()-17,24: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+385. fBodyAccJerk-bandsEnergy()-25,32: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+386. fBodyAccJerk-bandsEnergy()-33,40: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+387. fBodyAccJerk-bandsEnergy()-41,48: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+388. fBodyAccJerk-bandsEnergy()-49,56: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+389. fBodyAccJerk-bandsEnergy()-57,64: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+390. fBodyAccJerk-bandsEnergy()-1,16: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+391. fBodyAccJerk-bandsEnergy()-17,32: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+392. fBodyAccJerk-bandsEnergy()-33,48: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+393. fBodyAccJerk-bandsEnergy()-49,64: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+394. fBodyAccJerk-bandsEnergy()-1,24: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+395. fBodyAccJerk-bandsEnergy()-25,48: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+396. fBodyAccJerk-bandsEnergy()-1,8: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+397. fBodyAccJerk-bandsEnergy()-9,16: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+398. fBodyAccJerk-bandsEnergy()-17,24: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+399. fBodyAccJerk-bandsEnergy()-25,32: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+400. fBodyAccJerk-bandsEnergy()-33,40: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+401. fBodyAccJerk-bandsEnergy()-41,48: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+402. fBodyAccJerk-bandsEnergy()-49,56: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+403. fBodyAccJerk-bandsEnergy()-57,64: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+404. fBodyAccJerk-bandsEnergy()-1,16: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+405. fBodyAccJerk-bandsEnergy()-17,32: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+406. fBodyAccJerk-bandsEnergy()-33,48: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+407. fBodyAccJerk-bandsEnergy()-49,64: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+408, fBodyAccJerk-bandsEnergy()-1,24: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+409, fBodyAccJerk-bandsEnergy()-25,48: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+410, fBodyAccJerk-bandsEnergy()-1,8: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+411, fBodyAccJerk-bandsEnergy()-9,16: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+412. fBodyAccJerk-bandsEnergy()-17,24: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+413. fBodyAccJerk-bandsEnergy()-25,32: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+414. fBodyAccJerk-bandsEnergy()-33,40: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+415. fBodyAccJerk-bandsEnergy()-41,48: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+416. fBodyAccJerk-bandsEnergy()-49,56: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+417. fBodyAccJerk-bandsEnergy()-57,64: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+418. fBodyAccJerk-bandsEnergy()-1,16: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+419. fBodyAccJerk-bandsEnergy()-17,32: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+420. fBodyAccJerk-bandsEnergy()-33,48: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+421. fBodyAccJerk-bandsEnergy()-49,64: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+422. fBodyAccJerk-bandsEnergy()-1,24: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+423. fBodyAccJerk-bandsEnergy()-25,48: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
 424. fBodyGyro-mean()-X
-425 fBodyGyro-mean()-Y
-426 fBodyGyro-mean()-Z
-427 fBodyGyro-std()-X
-428 fBodyGyro-std()-Y
-429 fBodyGyro-std()-Z
-430 fBodyGyro-mad()-X
-431 fBodyGyro-mad()-Y
-432 fBodyGyro-mad()-Z
-433 fBodyGyro-max()-X
-434 fBodyGyro-max()-Y
-435 fBodyGyro-max()-Z
-436 fBodyGyro-min()-X
-437 fBodyGyro-min()-Y
-438 fBodyGyro-min()-Z
-439 fBodyGyro-sma()
-440 fBodyGyro-energy()-X
-441 fBodyGyro-energy()-Y
-442 fBodyGyro-energy()-Z
-443 fBodyGyro-iqr()-X
-444 fBodyGyro-iqr()-Y
-445 fBodyGyro-iqr()-Z
-446 fBodyGyro-entropy()-X
-447 fBodyGyro-entropy()-Y
-448 fBodyGyro-entropy()-Z
-449 fBodyGyro-maxInds-X
-450 fBodyGyro-maxInds-Y
-451 fBodyGyro-maxInds-Z
-452 fBodyGyro-meanFreq()-X
-453 fBodyGyro-meanFreq()-Y
-454 fBodyGyro-meanFreq()-Z
-455 fBodyGyro-skewness()-X
-456 fBodyGyro-kurtosis()-X
-457 fBodyGyro-skewness()-Y
-458 fBodyGyro-kurtosis()-Y
-459 fBodyGyro-skewness()-Z
-460 fBodyGyro-kurtosis()-Z
-461 fBodyGyro-bandsEnergy()-1,8
-462 fBodyGyro-bandsEnergy()-9,16
-463. fBodyGyro-bandsEnergy()-17,24
-464. fBodyGyro-bandsEnergy()-25,32
-465. fBodyGyro-bandsEnergy()-33,40
-466. fBodyGyro-bandsEnergy()-41,48
-467. fBodyGyro-bandsEnergy()-49,56
-468. fBodyGyro-bandsEnergy()-57,64
-469. fBodyGyro-bandsEnergy()-1,16
-470. fBodyGyro-bandsEnergy()-17,32
-471. fBodyGyro-bandsEnergy()-33,48
-472. fBodyGyro-bandsEnergy()-49,64
-473. fBodyGyro-bandsEnergy()-1,24
-474. fBodyGyro-bandsEnergy()-25,48
-475. fBodyGyro-bandsEnergy()-1,8
-476. fBodyGyro-bandsEnergy()-9,16
-477. fBodyGyro-bandsEnergy()-17,24
-478. fBodyGyro-bandsEnergy()-25,32
-479. fBodyGyro-bandsEnergy()-33,40
-480. fBodyGyro-bandsEnergy()-41,48
-481. fBodyGyro-bandsEnergy()-49,56
-482. fBodyGyro-bandsEnergy()-57,64
-483. fBodyGyro-bandsEnergy()-1,16
-484. fBodyGyro-bandsEnergy()-17,32
-485. fBodyGyro-bandsEnergy()-33,48
-486. fBodyGyro-bandsEnergy()-49,64
-487. fBodyGyro-bandsEnergy()-1,24
-488. fBodyGyro-bandsEnergy()-25,48
-489. fBodyGyro-bandsEnergy()-1,8
-490. fBodyGyro-bandsEnergy()-9,16
-491. fBodyGyro-bandsEnergy()-17,24
-492. fBodyGyro-bandsEnergy()-25,32
-493. fBodyGyro-bandsEnergy()-33,40
-494. fBodyGyro-bandsEnergy()-41,48
-495. fBodyGyro-bandsEnergy()-49,56
-496. fBodyGyro-bandsEnergy()-57,64
-497. fBodyGyro-bandsEnergy()-1,16
-498. fBodyGyro-bandsEnergy()-17,32
-499. fBodyGyro-bandsEnergy()-33,48
-500. fBodyGyro-bandsEnergy()-49,64
-501. fBodyGyro-bandsEnergy()-1,24
-502. fBodyGyro-bandsEnergy()-25,48
+425. fBodyGyro-mean()-Y
+426. fBodyGyro-mean()-Z
+427. fBodyGyro-std()-X
+428. fBodyGyro-std()-Y
+429. fBodyGyro-std()-Z
+430. fBodyGyro-mad()-X
+431. fBodyGyro-mad()-Y
+432. fBodyGyro-mad()-Z
+433. fBodyGyro-max()-X
+434. fBodyGyro-max()-Y
+435. fBodyGyro-max()-Z
+436. fBodyGyro-min()-X
+437. fBodyGyro-min()-Y
+438. fBodyGyro-min()-Z
+439. fBodyGyro-sma()
+440. fBodyGyro-energy()-X
+441. fBodyGyro-energy()-Y
+442. fBodyGyro-energy()-Z
+443. fBodyGyro-iqr()-X
+444. fBodyGyro-iqr()-Y
+445. fBodyGyro-iqr()-Z
+446. fBodyGyro-entropy()-X
+447. fBodyGyro-entropy()-Y
+448. fBodyGyro-entropy()-Z
+449. fBodyGyro-maxInds-X
+450. fBodyGyro-maxInds-Y
+451. fBodyGyro-maxInds-Z
+452. fBodyGyro-meanFreq()-X
+453. fBodyGyro-meanFreq()-Y
+454. fBodyGyro-meanFreq()-Z
+455. fBodyGyro-skewness()-X
+456. fBodyGyro-kurtosis()-X
+457. fBodyGyro-skewness()-Y
+458. fBodyGyro-kurtosis()-Y
+459. fBodyGyro-skewness()-Z
+460. fBodyGyro-kurtosis()-Z
+461. fBodyGyro-bandsEnergy()-1,8: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+462. fBodyGyro-bandsEnergy()-9,16: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+463. fBodyGyro-bandsEnergy()-17,24: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+464. fBodyGyro-bandsEnergy()-25,32: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+465. fBodyGyro-bandsEnergy()-33,40: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+466. fBodyGyro-bandsEnergy()-41,48: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+467. fBodyGyro-bandsEnergy()-49,56: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+468. fBodyGyro-bandsEnergy()-57,64: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+469. fBodyGyro-bandsEnergy()-1,16: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+470. fBodyGyro-bandsEnergy()-17,32: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+471. fBodyGyro-bandsEnergy()-33,48: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+472. fBodyGyro-bandsEnergy()-49,64: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+473. fBodyGyro-bandsEnergy()-1,24: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+474. fBodyGyro-bandsEnergy()-25,48: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+475. fBodyGyro-bandsEnergy()-1,8: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+476. fBodyGyro-bandsEnergy()-9,16: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+477. fBodyGyro-bandsEnergy()-17,24: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+478. fBodyGyro-bandsEnergy()-25,32: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+479. fBodyGyro-bandsEnergy()-33,40: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+480. fBodyGyro-bandsEnergy()-41,48: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+481. fBodyGyro-bandsEnergy()-49,56: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+482. fBodyGyro-bandsEnergy()-57,64: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+483. fBodyGyro-bandsEnergy()-1,16: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+484. fBodyGyro-bandsEnergy()-17,32: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+485. fBodyGyro-bandsEnergy()-33,48: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+486. fBodyGyro-bandsEnergy()-49,64: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+487. fBodyGyro-bandsEnergy()-1,24: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+488. fBodyGyro-bandsEnergy()-25,48: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+489. fBodyGyro-bandsEnergy()-1,8: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+490. fBodyGyro-bandsEnergy()-9,16: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+491. fBodyGyro-bandsEnergy()-17,24: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+492. fBodyGyro-bandsEnergy()-25,32: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+493. fBodyGyro-bandsEnergy()-33,40: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+494. fBodyGyro-bandsEnergy()-41,48: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+495. fBodyGyro-bandsEnergy()-49,56: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+496. fBodyGyro-bandsEnergy()-57,64: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+497. fBodyGyro-bandsEnergy()-1,16: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+498. fBodyGyro-bandsEnergy()-17,32: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+499. fBodyGyro-bandsEnergy()-33,48: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+500. fBodyGyro-bandsEnergy()-49,64: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+501. fBodyGyro-bandsEnergy()-1,24: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
+502. fBodyGyro-bandsEnergy()-25,48: energy of a frequency interval for 1, 8 bins for frequency domain signals of body acceleration signals
 503. fBodyAccMag-mean()
 504. fBodyAccMag-std()
 505. fBodyAccMag-mad()
@@ -612,13 +612,13 @@ The complete list of 561 variables of each feature vector( sourced from 'feature
 552. fBodyBodyGyroJerkMag-meanFreq()
 553. fBodyBodyGyroJerkMag-skewness()
 554. fBodyBodyGyroJerkMag-kurtosis()
-555. angle(tBodyAccMean,gravity)
-556. angle(tBodyAccJerkMean),gravityMean)
-557. angle(tBodyGyroMean,gravityMean)
-558. angle(tBodyGyroJerkMean,gravityMean)
-559. angle(X,gravityMean)
-560. angle(Y,gravityMean)
-561. angle(Z,gravityMean)
+555. angle(tBodyAccMean,gravity): angle between  tBodyAccMean and gravity vectors
+556. angle(tBodyAccJerkMean,gravityMean): angle between tBodyAccJerkMean and gravityMean vectors
+557. angle(tBodyGyroMean,gravityMean): angle between tBodyGyroMean and gravityMean vectors
+558. angle(tBodyGyroJerkMean,gravityMean): angle between tBodyGyroMean and gravityMean vectors
+559. angle(X,gravityMean): angle between X axis and gravityMean vectors
+560. angle(Y,gravityMean): angle between Y axis and gravityMean vectors
+561. angle(Z,gravityMean): angle between Z axis and gravityMean vectors
 
 
 
