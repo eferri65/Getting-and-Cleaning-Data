@@ -25,9 +25,12 @@ Assumptions:
 To run the R script:
 
 <!-- -->
-    1. step 1: run the script; load it in RStudio, select all the lines and run it or source(run_analysis.R)
-    2. step 2: check the output file called `final_dataset.txt` located in the UCI HAR Dataset             
-    folder/directory
+    1. step 1: look at the script; it has comments for each requested step
+    2. step 2: run the script; load it in RStudio, select all the lines and run it or 
+    source(run_analysis.R)
+    3. step 3: check the output file called `final_dataset.txt` located in the UCI HAR Dataset             
+    folder/directory; to read it do: 
+    `final<-read.table("final_dataset", header=TRUE)`
 
 Note: I have a Mac and when the `run_analysis.R`script saved the file `final_dataset.txt` using `write.table(tt_subset_summary, "final_dataset", row.names = FALSE)` as requested by the the project instructions, the kind of file is not `txt` but `TextEd...ument`.
 
