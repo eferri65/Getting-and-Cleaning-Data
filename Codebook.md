@@ -46,9 +46,9 @@ Find below the definitions of the variable names for which the SummaryMean_ are 
  7. tGravityAcc-mean()-X: mean of time gravity accelation signals on X axis
  8. tGravityAcc-mean()-Y: mean of time gravity accelation signals on Y axis
  9. tGravityAcc-mean()-Z: mean of time gravity accelation signals on Z axis
-10. tGravityAcc-std()-X: standard deviation of time gravity accelation signals on X axis
-11. tGravityAcc-std()-Y: standard deviation of time gravity accelation signals on Y axis
-12. tGravityAcc-std()-Z: standard deviation of time gravity accelation signals on Z axis
+ 10.  tGravityAcc-std()-X: standard deviation of time gravity accelation signals on X axis
+ 11.  tGravityAcc-std()-Y: standard deviation of time gravity accelation signals on Y axis
+ 12.  tGravityAcc-std()-Z: standard deviation of time gravity accelation signals on Z axis
 13. tBodyAccJerk-mean()-X: mean of derived jerk signals for time body accelation signals on X axis          
 14. tBodyAccJerk-mean()-Y: mean of derived jerk signals for time body accelation signals on Y axis           
 15. tBodyAccJerk-mean()-Z: mean of derived jerk signals for time body accelation signals on Z axis           
