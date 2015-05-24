@@ -8,7 +8,7 @@ This Codebook is divided into the following sections:
 1. Column descriptions for the final dataset
 2. Column filters applied to initial downloaded data 
 3. Is the final dataset tidy?
-4. Evolution from Raw Data to final dataset 
+4. Raw Data collection and variables estimations  
 
 ###2. Column descriptions for the final dataset
 The 72 columns in the final dataset breakdown as follows:
@@ -151,7 +151,7 @@ Tidy data thread at [https://class.coursera.org/getdata-014/forum/thread?thread_
 Now, I have no clue if the data is correct, i.e. if the values are meningful.
 I checked there are no N/A's with `sapply(tt_subset_summary , function(x)all(is.na(x)))`
 
-###4. Evolution from Raw Data to final dataset 
+###4. Raw Data collection and variables estimations   
 
 Source: `feautures_info.ext`
 
