@@ -25,7 +25,7 @@ Assumptions:
 To run the R script:
 
 <!-- -->
-    1. step 1: run the script; load the script in RStudio, select all the lines and run it or source(run_analysis.R)
+    1. step 1: run the script; load it in RStudio, select all the lines and run it or source(run_analysis.R)
     2. step 2: check the output file called `final_dataset.txt` located in the UCI HAR Dataset             
     folder/directory
 
