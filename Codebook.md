@@ -11,7 +11,7 @@ This Codebook is divided into the following sections:
 4. Raw Data collection and variables estimations  
 
 ###2. Column descriptions for the final dataset
-The 72 columns in the final dataset breakdown as follows:
+The final dataset has 72 columns:
 
 * 1 Column = called `Activity`
 * 1 Column =  called `Subject`
@@ -28,8 +28,9 @@ is implemented as Factor w/ 6 levels:
 
 `Subject`: identifies the individual (aka Subject) who is performing the Activity; it is a numeric id which
 ranges from 1 to 30; in R is implemented as an int =  1 2 3 4 5 6 7 8 9 10 ...30
+As expected, in the final set there are 180 rows, because there are 6 activities and 30 subjects, so 6x30 = 180.
     
-`SummaryMean_ variable name`: All the remaining 70 columns are computed means; they all have the prefix `SummaryMean_` to indicate that they ares summary means of the variable names captured in the character string that follows the prefix. For Example:
+`SummaryMean_ variable name`: All the remaining 70 columns are computed means; they all have the prefix `SummaryMean_` to indicate that they ares summary means of the variables whose names are captured in the character string that follows the prefix. For Example:
     
 `SummaryMean_ tBodyAcc-mean()-X` is the calculated summary mean of `tBodyAcc-mean()-X` by Activity by Subject
     
@@ -107,7 +108,6 @@ Find below the definitions of the variable names for which the SummaryMean_ are 
  70. fBodyAccMag-meanFreq(): weighted average of computed (FFT) frequency doamin signals for body acceleration signal magnitude   
  
 
-
 ###2. Column filters applied to initial downloaded data 
 The final dataset created by the R script named `run_analysis.R`, is intended to be an independent tidy data set with the `average of each variable for each activity and each subject`.
 
@@ -135,8 +135,6 @@ I also decided to exclude the following 9 columns, as they contain "Body" twice 
  * fBodyBodyGyroJerkMag-meanFreq() 
 
 After these filters the number of features which were initially 561 decreased to 70.
-As expected, in the final set there are 180 rows, because there are 6 activities and 30 subjects, so 6x30 = 180.
-
 
 ###3. Is the final dataset tidy?
 As David Hood points out in one of the discussion forums the `tidy for` principle is hard to apply here because we don't have a specific problem to apply it to.
