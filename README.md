@@ -20,12 +20,13 @@ As required by the assignment, the `Getting-and-Cleaning-Data repo` contains the
 Assumptions - A MUST: 
 
 1. Use the SAME file structure as the `UCI HAR Dataset` dowloaded for the assignment
-2. Set your working directory at the top level of the `UCI HAR Dataset`, which the script will assign to be the root directory
+2. Set your working directory at the top level of the `UCI HAR Dataset` like so: 
+   setwd("YOUR_PATH_HERE/UCI HAR Dataset")
  
 To run the R script:
 
 <!-- -->
-    1. step 1: look at the script; it has comments for each requested step
+    1. step 1: look at the script; it has comments for each step required by the assignment
     2. step 2: run the script; load it in RStudio, select all the lines and run it or 
     source(run_analysis.R)
     3. step 3: check the output file called `final_dataset.txt` located in the UCI HAR Dataset             
