@@ -2,6 +2,14 @@ Getting-and-Cleaning-Data
 ===========
 
 This is the Readme markdown file for the GitHub repo called Getting-and-Cleaning-Data.
+This Readme is divided in the following sections:
+
+1. Content of `Getting-and-Cleaning-Data repo`
+2. Instructions on how to run the script named `run_analysis.R`
+
+
+###1. Content of `Getting-and-Cleaning-Data repo`
+
 As required by the assignment, this repo contains the following files:
 
 1. This `Readme` markdown file: it describes how to run the R script included in the repo and summarizes what you will find in the Codebook
