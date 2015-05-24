@@ -15,9 +15,9 @@ The final dataset is created by `run_analysis.R` script following the assignment
 As expected, there are 180 rows, becauase there are 6 activities and 30 subjects, so 6x30 = 180.
 There are 81 columns, acoording to the following breakdown:
 
-*1 Column: Activity
-*1 Column: Subject
-*79 Columns: Summar Mean for 79 variables.
+* 1 Column: Activity
+* 1 Column: Subject
+* 79 Columns: Summary Means for 79 variables.
 
 <!-- -->
  
