@@ -146,11 +146,11 @@ Tidy data thread at [https://class.coursera.org/getdata-014/forum/thread?thread_
 
 *  all the variable names have a `t` or an `f` the beginning, distinguishing bewteen the time or frequency domain
 *  the feature name follows immediately the prefix `t` or `f`
-*  the measuremnt type (mean() or std()) always follows the variable name: 
+*  the measurement type (example: mean() or std()) always follows the variable name
 *  when applicable, the variable names terminates with X or Y or Z to specify the axial direction of the signal
 
 2. The variables are in different columns  
-3. There no duplicate columns (I programmatically checked with `dup<-duplicated(tt_subset_summary[,1:72])` )
+3. There are no duplicate columns (I programmatically checked with `dup<-duplicated(tt_subset_summary[,1:72])` )
 
 Now, I do not know if the data is correct, i.e. if the values are meaningful.
 I checked there are no N/A's with `sapply(tt_subset_summary , function(x)all(is.na(x)))`
