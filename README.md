@@ -112,7 +112,8 @@ Here is the result of `str(tt_subset_summary)`, where `tt_subset_summary` is the
     $ SummaryMean_ fBodyBodyGyroJerkMag-meanFreq(): num  0.1765 0.2648 0.1107 0.2029 0.0247 ...
 > 
 
-
+###Details on the data set
+Please read the Codebook located in this repo
  
 
  
