@@ -1,15 +1,15 @@
+##ASSUMPTION: you are in UCI HAR Dataset directory
+##Example: setwd("/Users/rodele/Desktop/UCI HAR Dataset")
+
 library("plyr")
 
-## set your root -- assumption you are in UCI HAR Dataset
-root = "/Users/rodele/Desktop/UCI HAR Dataset"
+root<-getwd()
 setwd(root)
 
 ##----------------------1
 ##Merges the training and the test sets to create one data set.
 ##Both training and test sets have the same 561 features columns, they only differ for 
-##the subjects being measured: 9 for test and 21 for train
-##I will merge the 2 data sets like "stacking" one on top of the other so that we get the 
-##561 features on the complete universe of 30 subjects
+##the subjects being measured: 9 for test and 21 for train.
 
 ##get the activity and features data common for the test and train data
 activity_labels<-read.table("activity_labels.txt")
@@ -22,6 +22,7 @@ y_test<-read.table("y_test.txt")
 y_test<-rename(y_test, c("V1"="Activity"))
 subject_test = read.table("subject_test.txt")
 subject_test<-rename(subject_test, c("V1"="Subject"))
+#column clip subject+activity+test_data 
 test<-cbind(subject_test, y_test, X_test)
 
 ##get the train data
@@ -32,9 +33,10 @@ y_train<-read.table("y_train.txt")
 y_train<-rename(y_train, c("V1"="Activity"))
 subject_train<-read.table("subject_train.txt")
 subject_train<-rename(subject_train, c("V1"="Subject"))
+#column clip subject+activity+train_data 
 train<-cbind(subject_train, y_train, X_train)
 
-##clip test and train data: they have the SAME columns
+##row clip test and train data: they have the SAME columns (subect, activity, 561 features)
 tt<-rbind(train,test)
 
 ##----------------------2
@@ -53,7 +55,7 @@ tt.subset$Activity<-activity_labels[,2][match(tt$Activity, activity_labels[,1])]
 
 ##----------------------4
 ##Appropriately labels the data set with descriptive variable names. 
-##Make the labels more descriptive 
+##Done is step 2 already; for more details look at the Codebook 
 
 ##----------------------5
 ##From the data set in step 4, creates a second, independent tidy data set with the average of 
