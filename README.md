@@ -40,7 +40,7 @@ To run the R script:
     * creates a second, independent tidy data set with the average of each variable for each activity and each 
     subject.
     
-    2. step 2: run the script; load it in RStudio, select all the lines and run it or 
+    2. step 2: load the script in RStudio, select all the lines and run it OR 
     source(run_analysis.R)
     
     3. step 3: check the output file called `final_dataset.txt` located in the UCI HAR Dataset             
