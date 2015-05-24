@@ -41,6 +41,7 @@ To run the R script:
     
     2. step 2: run the script; load it in RStudio, select all the lines and run it or 
     source(run_analysis.R)
+    
     3. step 3: check the output file called `final_dataset.txt` located in the UCI HAR Dataset             
     folder/directory; to read it do: 
     `final<-read.table("final_dataset", header=TRUE)`
