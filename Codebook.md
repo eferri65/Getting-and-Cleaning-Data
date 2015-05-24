@@ -49,32 +49,34 @@ Find below the definitions of the variable names for which the SummaryMean_ are 
  10.  tGravityAcc-std()-X: standard deviation of time gravity accelation signals on X axis
  11.  tGravityAcc-std()-Y: standard deviation of time gravity accelation signals on Y axis
  12.  tGravityAcc-std()-Z: standard deviation of time gravity accelation signals on Z axis
-13. tBodyAccJerk-mean()-X: mean of derived jerk signals for time body accelation signals on X axis          
-14. tBodyAccJerk-mean()-Y: mean of derived jerk signals for time body accelation signals on Y axis           
-15. tBodyAccJerk-mean()-Z: mean of derived jerk signals for time body accelation signals on Z axis           
-16. tBodyAccJerk-std()-X: standard deviation of derived jerk signals for time body acceleration signals on X axis  
-17. tBodyAccJerk-std()-Y: standard deviation of derived jerk signals for time body acceleration signals on Y axis  
-18. tBodyAccJerk-std()-Z: standard deviation of derived jerk signals for time body acceleration signals on Z axis   19. tBodyGyro-mean()-X: mean of time body gyroscope signals on X axis              
-20. tBodyGyro-mean()-Y: mean of time body gyroscope signals on Y axis               
-21. tBodyGyro-mean()-Z: mean of time body gyroscope signals on Z axis                
-22. tBodyGyro-std()-X: standard deviation of time body gyroscope signals on X axis               
-23. tBodyGyro-std()-Y: standard deviation of time body gyroscope signals on Y axis                
-24. tBodyGyro-std()-Z: standard deviation of time body gyroscope signals on Z axis                
-25. tBodyGyroJerk-mean()-X: mean of derived jerk signals for time body gyroscope signals on X axis           
-26. tBodyGyroJerk-mean()-Y: mean of derived jerk signals for time body gyroscope signals on Y axis          
-27. tBodyGyroJerk-mean()-Z: mean of derived jerk signals for time body gyroscope signals on Z axis         
-28. tBodyGyroJerk-std()-X: standard deviation of derived jerk signals for time body gyroscope signals on X axis
-29. tBodyGyroJerk-std()-Y: standard deviation of derived jerk signals for time body gyroscope signals on Y axis
-30. tBodyGyroJerk-std()-Z: standard deviation of derived jerk signals for time body gyroscope signals on Z axis 
-31. tBodyAccMag-mean(): mean of computed magnitude (Euclidean norm) of time body acceleration signals            
-32. tBodyAccMag-std(): standard deviation of computed magnitude (Euclidean norm) of time body acceleration signals  
-33. tGravityAccMag-mean(): mean of computed magnitude (Euclidean norm) of time gravity acceleration signals       
-34. tGravityAccMag-std():standard deviation of computed magnitude (Euclidean norm) of time gravity acceleration signals
-35. tBodyAccJerkMag-mean(): mean of computed magnitude (Euclidean norm) of jerk signals for time body acceleration signals           
-36. tBodyAccJerkMag-std(): standard deviation of computed magnitude (Euclidean norm) of jerk signals for time body acceleration signal                      
-37. tBodyGyroMag-mean(): mean of computed magnitude (Euclidean norm) of time body gyroscope signals              
-38. tBodyGyroMag-std():  standard devitaion of computed magnitude (Euclidean norm) of time body gyroscope signals   39. tBodyGyroJerkMag-mean(): mean of computed magnitude (Euclidean norm) of jerk signals for of time body gyroscope signals          
-40. tBodyGyroJerkMag-std(): standard deviation of computed magnitude (Euclidean norm) of jerk signals for of time body gyroscope signals                     
+ 13.  tBodyAccJerk-mean()-X: mean of derived jerk signals for time body accelation signals on X axis        
+ 14.  tBodyAccJerk-mean()-Y: mean of derived jerk signals for time body accelation signals on 
+ 15.  tBodyAccJerk-mean()-Z: mean of derived jerk signals for time body accelation signals on Z axis         
+ 16.  tBodyAccJerk-std()-X: standard deviation of derived jerk signals for time body acceleration signals on X axis
+ 17.  tBodyAccJerk-std()-Y: standard deviation of derived jerk signals for time body acceleration signals on Y axis
+ 18.  tBodyAccJerk-std()-Z: standard deviation of derived jerk signals for time body acceleration signals on Z axis
+ 19.  tBodyGyro-mean()-X: mean of time body gyroscope signals on X axis              
+ 20.  tBodyGyro-mean()-Y: mean of time body gyroscope signals on Y axis               
+ 21.  tBodyGyro-mean()-Z: mean of time body gyroscope signals on Z axis                
+ 22.  tBodyGyro-std()-X: standard deviation of time body gyroscope signals on X axis              
+ 23.  tBodyGyro-std()-Y: standard deviation of time body gyroscope signals on Y axis            
+ 24.  tBodyGyro-std()-Z: standard deviation of time body gyroscope signals on Z axis            
+ 25.  tBodyGyroJerk-mean()-X: mean of derived jerk signals for time body gyroscope signals on X axis        
+ 26.  tBodyGyroJerk-mean()-Y: mean of derived jerk signals for time body gyroscope signals on Y axis        
+ 27.  tBodyGyroJerk-mean()-Z: mean of derived jerk signals for time body gyroscope signals on Z axis    27. 
+ 28.  tBodyGyroJerk-std()-X: standard deviation of derived jerk signals for time body gyroscope signals on X axis
+ 29.  tBodyGyroJerk-std()-Y: standard deviation of derived jerk signals for time body gyroscope signals on Y axis
+ 30.  tBodyGyroJerk-std()-Z: standard deviation of derived jerk signals for time body gyroscope signals on Z axis
+ 31.  tBodyAccMag-mean(): mean of computed magnitude (Euclidean norm) of time body acceleration signals         
+ 32.  tBodyAccMag-std(): standard deviation of computed magnitude (Euclidean norm) of time body acceleration signal
+ 33.  tGravityAccMag-mean(): mean of computed magnitude (Euclidean norm) of time gravity acceleration signals 
+ 34.  tGravityAccMag-std():standard deviation of computed magnitude (Euclidean norm) of time gravity acceleration signals
+ 35.  tBodyAccJerkMag-mean(): mean of computed magnitude (Euclidean norm) of jerk signals for time body acceleration signals
+ 36.  tBodyAccJerkMag-std(): standard deviation of computed magnitude (Euclidean norm) of jerk signals for time body acceleration signal
+ 37.  tBodyGyroMag-mean(): mean of computed magnitude (Euclidean norm) of time body gyroscope signals             
+ 38.  tBodyGyroMag-std():  standard devitaion of computed magnitude (Euclidean norm) of time body gyroscope signals 
+ 39.  tBodyGyroJerkMag-mean(): mean of computed magnitude (Euclidean norm) of jerk signals for of time body gyroscope signals          
+ 40.  tBodyGyroJerkMag-std(): standard deviation of computed magnitude (Euclidean norm) of jerk signals for of time body gyroscope signals                     
 41. fBodyAcc-mean()-X: mean of computed (FFT) frequency domain signals for time body acceleration signals on X axis 
 42. fBodyAcc-mean()-Y: mean of computed (FFT) frequency domain signals for time body acceleration signals on Y axis 
 43. fBodyAcc-mean()-Z: mean of computed (FFT) frequency domain signals for time body acceleration signals on Z axis 
