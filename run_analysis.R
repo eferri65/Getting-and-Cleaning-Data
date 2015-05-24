@@ -60,6 +60,8 @@ tt.subset$Activity<-activity_labels[,2][match(tt$Activity, activity_labels[,1])]
 ##----------------------4
 ##Appropriately labels the data set with descriptive variable names. 
 ##Done already is step 2; for more details look at the Codebook 
+##However I decided to eliminate the columns containing "BodyBody" because they do not make sense 
+tt.subset <- tt.subset[, -grep("BodyBody", colnames(tt.subset))]
 
 ##----------------------5
 ##From the data set in step 4, creates a second, independent tidy data set with the average of 
