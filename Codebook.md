@@ -144,10 +144,10 @@ Tidy data thread at [https://class.coursera.org/getdata-014/forum/thread?thread_
 
 1. The final dataset has headings so that I know which columns are which; the string headings are compact and I like the way they are built because you can actuallly infer what they mean with the abbreviations used; the recipe is given in section 4, sourced from feauture_info.txt; some examples:
 
-*  all the variable names have a `t` or an `f` the beginning, distinguishing bewteen the time or frequency domain
-*  the feature name follows immediately the prefix `t` or `f`
-*  the measurement type (example: mean() or std()) always follows the variable name
-*  when applicable, the variable names terminates with X or Y or Z to specify the axial direction of the signal
+-all the variable names have a `t` or an `f` the beginning, distinguishing bewteen the time or frequency domain
+-the feature name follows immediately the prefix `t` or `f`
+-the measurement type (example: mean() or std()) always follows the variable name
+-when applicable, the variable names terminates with X or Y or Z to specify the axial direction of the signal
 
 2. The variables are in different columns  
 3. There are no duplicate columns (I programmatically checked with `dup<-duplicated(tt_subset_summary[,1:72])` )
