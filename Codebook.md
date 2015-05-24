@@ -108,18 +108,17 @@ Find below the definitions of the variable names for which the SummaryMean_ are 
  69. fBodyAccMag-std(): standard deviation of computed magnitude (Euclidean norm) of frequency signals for body accelartion signal
  70. fBodyAccMag-meanFreq(): weighted average of computed (FFT) frequency doamin signals for body acceleration signal magnitude   
  
-the following columns do not make sense to me
+The following 9 columns do not make sense to me becuase they contain "Body" twice.
 
- $ fBodyBodyAccJerkMag-mean(): mean of computed magnitude (Euclidean norm) of frequency body gyroscope signals      
- $ fBodyBodyAccJerkMag-std():        
- $ fBodyBodyAccJerkMag-meanFreq():   
- $ fBodyBodyGyroMag-mean():         
- $ fBodyBodyGyroMag-std():           
- $ fBodyBodyGyroMag-meanFreq():     
- $ fBodyBodyGyroJerkMag-mean():    
- $ fBodyBodyGyroJerkMag-std()":      
- $ fBodyBodyGyroJerkMag-meanFreq(): 
-
+ 71. fBodyBodyAccJerkMag-mean()
+ 72. fBodyBodyAccJerkMag-std()        
+ 73. fBodyBodyAccJerkMag-meanFreq()  
+ 74. fBodyBodyGyroMag-mean()        
+ 75. fBodyBodyGyroMag-std()           
+ 76. fBodyBodyGyroMag-meanFreq() 
+ 77. fBodyBodyGyroJerkMag-mean()    
+ 78. fBodyBodyGyroJerkMag-std:      
+ 79. fBodyBodyGyroJerkMag-meanFreq() 
 
 ###2. Is the final dataset tidy?
 
