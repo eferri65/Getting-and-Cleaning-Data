@@ -139,21 +139,15 @@ Find below the definitions of the variable names for which the SummaryMean_ are 
 ###2. Is the final dataset tidy?
 As David Hood points out in one of the discussion forums the `tidy for` principle is hard to apply here because we don't have a specific problem to apply it to.
 
-However, looking at the checklist suggested by David:
+However, per the the checklist suggested by David in the 
+Tidy data thread at [https://class.coursera.org/getdata-014/forum/thread?thread_id=31](https://class.coursera.org/getdata-014/forum/thread?thread_id=31):
 
 1. The final set has headings so that I know which columns are which; and I like the way they are compressed because you can actuallly infer what they mean with the abbreviations used; the recepie is given in section 4 source from feauture_info.txt
 2. The variables are in different columns  
 3. There no duplicate columns (I programmatically checked with `dup<-duplicated(tt_subset_summary[,1:72])` )
 
-refer to the paper from and the thread
-[https://github.com/rdpeng/ProgrammingAssignment2](https://github.com/rdpeng/ProgrammingAssignment2)
-
 Now, I have no clue if the data is correct, i.e. if the values are meningful.
 I checked there are no N/A's with `sapply(tt_subset_summary , function(x)all(is.na(x)))`
- 
- 
-
- 
 
 ###3. Evolution from Raw Data to final dataset; some information is sourced from  `feautures_info.ext`
 
