@@ -141,10 +141,9 @@ As David Hood points out in one of the discussion forums the `tidy for` principl
 
 However, looking at the checklist suggested by David:
 
-1. The final set have headings so I know which columns are which; and I like the way they are compressed because you can actullly infer what they mean with the abbreviations used
+1. The final set has headings so that I know which columns are which; and I like the way they are compressed because you can actuallly infer what they mean with the abbreviations used; the recepie is given in section 4 source from feauture_info.txt
 2. The variables are in different columns  
-3. There no duplicate columns (I programmatically checked):
-`dup<-duplicated(tt_subset_summary[,1:72])`
+3. There no duplicate columns (I programmatically checked with `dup<-duplicated(tt_subset_summary[,1:72])` )
 
 refer to the paper from and the thread
 [https://github.com/rdpeng/ProgrammingAssignment2](https://github.com/rdpeng/ProgrammingAssignment2)
