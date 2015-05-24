@@ -1,7 +1,7 @@
 ##ASSUMPTION-MUST: you are in UCI HAR Dataset directory generated after unzipping the data provided for the course project
 ##Example: setwd("/Users/rodele/Desktop/UCI HAR Dataset")
 
-## inclduding the "plyr" package used later with "ddply function
+## inclduding the "plyr" package used later with "ddply" function
 library("plyr")
 
 ##saving the working directory as the root
@@ -73,6 +73,6 @@ for(i in 3:n ) {
 }
 
 ##----------------------6
-##Last step: per requested, write "tt_subset_summary" set as a txt file created with write.table() using row.name=FALSE 
+##Last step: per requested, write "tt_subset_summary" set as a txt file created with "write.table()" using row.name=FALSE 
 setwd(root)
 write.table(tt_subset_summary, "final_dataset", row.names = FALSE)
