@@ -44,10 +44,10 @@ To run the R script:
     source(run_analysis.R)
     
     3. step 3: check the output file called `final_dataset.txt` located in the UCI HAR Dataset             
-    folder/directory; to read it do: 
+    folder/directory (also loaded in the project submission via Coursera); to read it do: 
     `final<-read.table("final_dataset", header=TRUE)`
 
-Note: I have a Mac and when the `run_analysis.R`script saved the file `final_dataset.txt` using `write.table(tt_subset_summary, "final_dataset", row.names = FALSE)` as requested by the the project instructions, the kind of file is not `txt` but `TextEd...ument`.
+Note: I have a Mac and when the `run_analysis.R`script saves the file `final_dataset.txt` using `write.table(tt_subset_summary, "final_dataset", row.names = FALSE)` as requested by the the project instructions, the kind of file is not `txt` but `TextEd...ument`.
 
 Here is the result of `str(tt_subset_summary)`, where `tt_subset_summary` is the dataframe written into `final_dataset.txt`; it is basically a summary table with 180 rows and 72 variables:
 
