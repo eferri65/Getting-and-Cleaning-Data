@@ -151,6 +151,7 @@ Tidy data thread at [https://class.coursera.org/getdata-014/forum/thread?thread_
 
 2. The variables are in different columns  
 3. There are no duplicate columns (I programmatically checked with `dup<-duplicated(tt_subset_summary[,1:72])` )
+4. All the rows contain different observations
 
 Now, I do not know if the data is correct, i.e. if the values are meaningful.
 I checked there are no N/A's with `sapply(tt_subset_summary , function(x)all(is.na(x)))`
