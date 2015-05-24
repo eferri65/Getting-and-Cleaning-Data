@@ -39,7 +39,7 @@ I also decided to exclude the following 9 columns, as they contain "Body" twice 
 After these filters the number of features which were initially 561 decreased to 70.
 As expected, in the final set there are 180 rows, because there are 6 activities and 30 subjects, so 6x30 = 180.
 
-###2. Column descriptions
+###2. Column descriptions for the final dataset
 The 72 columns in the final dataset breakdown as follows:
 
 * 1 Column = called `Activity`
@@ -137,22 +137,24 @@ Find below the definitions of the variable names for which the SummaryMean_ are 
  
 
 ###2. Is the final dataset tidy?
+As David Hood points out in one of the discussion forums the `tidy for` principle is hard to apply here because we don't have a specific problem to apply it to.
 
-*why the data is tydy
+However, looking at the checklist suggested by David:
+
+1. The final set have headings so I know which columns are which; and I like the way they are compressed because you can actullly infer what they mean with the abbreviations used
+2. The variables are in different columns  
+3. There no duplicate columns (I programmatically checked):
+`dup<-duplicated(tt_subset_summary[,1:72])`
+
 refer to the paper from and the thread
 [https://github.com/rdpeng/ProgrammingAssignment2](https://github.com/rdpeng/ProgrammingAssignment2)
 
-*concerns about duplicate names
+Now, I have no clue if the data is correct, i.e. if the values are meningful.
+I checked there are no N/A's with `sapply(tt_subset_summary , function(x)all(is.na(x)))`
+ 
+ 
 
-*what I did prior to running the code
-
-*data quality
-
-* N/A
-
-* factors 
-
-
+ 
 
 ###3. Evolution from Raw Data to final dataset; some information is sourced from  `feautures_info.ext`
 
