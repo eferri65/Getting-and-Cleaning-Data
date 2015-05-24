@@ -15,23 +15,30 @@ The final dataset is created by `run_analysis.R` script following the assignment
 As expected, there are 180 rows, becauase there are 6 activities and 30 subjects, so 6x30 = 180.
 There are 81 columns, acoording to the following breakdown:
 
-* 1 Column: Activity
-* 1 Column: Subject
-* 79 Columns: Summary Means for 79 variables.
+* 1 Column = Activity
+* 1 Column =  Subject
+* 79 Columns = Summary Means for 79 variables.
 
 <!-- -->
- 
-      $ Activity  : Factor w/ 6 levels 
-        WALKING
-        WALKING_UPSTAIR
-        WALKING_DOWNSTAIRS
-        SITTING
-        STANDING
-        LAYING
+    Activity: describes the activity perfomed during the experiment; it is descriptive and in R 
+    is implemented as Factor w/ 6 levels: 
+        1. WALKING
+        2. WALKING_UPSTAIR
+        3. WALKING_DOWNSTAIRS
+        4. SITTING
+        5. STANDING
+        6. LAYING
+        
+    Subject: identifies the individual (aka Subject) who is performing the Activity; it is a numeric id which
+    ranges from 1 to 30; in R is implemente as an int =  1 2 3 4 5 6 7 8 9 10 ...30
+    
+    All the remaining 79 columns are computed means; they all have the prefix SummaryMean_ to indicate that they are
+   summary means of the variable names captured in the caracted sting that follws the prefix. For Example:
+    
+   SummaryMean_ tBodyAcc-mean()-X ids the summary mean of tBodyAcc-mean()-X 
     
     
     
-    $ Subject                                     : int  1 2 3 4 5 6 7 8 9 10 ...30
     $ SummaryMean_ tBodyAcc-mean()-X              : num  0.222 0.281 0.276 0.264 0.278 ...
     $ SummaryMean_ tBodyAcc-mean()-Y              : num  -0.0405 -0.0182 -0.019 -0.015 -0.0183 ...
     $ SummaryMean_ tBodyAcc-mean()-Z              : num  -0.113 -0.107 -0.101 -0.111 -0.108 ...
