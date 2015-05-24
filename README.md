@@ -13,7 +13,7 @@ As required by the assignment, the `Getting-and-Cleaning-Data repo` contains the
 
 1. This `Readme` markdown file: it gives you a roadmap of the repo and describes how to run the R script included in the repo  
 2. An R script named `run_analysis.R`: the script used to generate the final tidy data set required by the project
-3. A markdown file called `Codebook`: it describes the tidy data set, why it is tidy and the definition of the ciolumns in the final dataset
+3. A markdown file called `Codebook`: it describes the tidy data set, why it is tidy and the definition of the columns in the final dataset
  
 ###2. Instructions on how to run the script named `run_analysis.R`
 
