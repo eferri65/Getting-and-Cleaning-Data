@@ -100,12 +100,12 @@ Find below the definitions of the variable names for which the SummaryMean_ are 
  62. fBodyGyro-std()-X: standard deviation of computed (FFT) frequency domain signals for body gyroscope signals on X axis
  63. fBodyGyro-std()-Y: standard deviation  of computed (FFT) frequency domain signals for body gyroscope signals on Y axis               
  64. fBodyGyro-std()-Z: standard deviation  of computed (FFT) frequency domain signals for body gyroscope signals on Z axis
- 65. fBodyGyro-meanFreq()-X: weighted average of computed (FFT) frequency domain signals for body gyroscope signals on X axi
+ 65. fBodyGyro-meanFreq()-X: weighted average of computed (FFT) frequency domain signals for body gyroscope signals on X axis
  66. fBodyGyro-meanFreq()-Y: weighted average of computed (FFT) frequency domain signals for time body gyroscope signals on Y axis
  67. fBodyGyro-meanFreq()-Z: weighted average of computed (FFT) frequency domain signals for body gyroscope signals on Z axis                       
- 68. fBodyAccMag-mean(): mean of computed magnitude (Euclidean norm) of frequency signals for body accelartion signal 
- 69. fBodyAccMag-std(): standard deviation of computed magnitude (Euclidean norm) of frequency signals for body accelartion signal
- 70. fBodyAccMag-meanFreq(): weighted average of computed (FFT) frequency doamin signals for body acceleration signal magnitude   
+ 68. fBodyAccMag-mean(): mean of of computed (FFT) frequency domain signals for body acceleration signal magnitude  
+ 69. fBodyAccMag-std(): standard deviation of computed (FFT) frequency domain signals for body acceleration signal magnitude  
+ 70. fBodyAccMag-meanFreq(): weighted average of computed (FFT) frequency domain signals for body acceleration signal magnitude   
  
 
 ###2. Column filters applied to initial downloaded data 
