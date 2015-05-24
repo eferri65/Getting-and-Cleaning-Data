@@ -1,4 +1,4 @@
-Getting-and-Cleaning-Data
+Readme
 ===========
 
 This is the Readme markdown file for the GitHub repo called Getting-and-Cleaning-Data.
