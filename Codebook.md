@@ -95,72 +95,72 @@ The complete list of 561 variables of each feature vector( sourced from 'feature
 35. tBodyAcc-arCoeff()-Z,2: Autorregresion coefficients with Burg order equal to 4 for time body accelation signals on Z axis - 2
 36. tBodyAcc-arCoeff()-Z,3: Autorregresion coefficients with Burg order equal to 4 for time body accelation signals on Z axis - 3
 37. tBodyAcc-arCoeff()-Z,4: Autorregresion coefficients with Burg order equal to 4 for time body accelation signals on Z axis - 4
-38. tBodyAcc-correlation()-X,Y: correlation coefficient bet
-39. tBodyAcc-correlation()-X,Z
-40. tBodyAcc-correlation()-Y,Z
-41. tGravityAcc-mean()-X
-42. tGravityAcc-mean()-Y
-43. tGravityAcc-mean()-Z
-44. tGravityAcc-std()-X
-45. tGravityAcc-std()-Y
-46. tGravityAcc-std()-Z
-47. GravityAcc-mad()-X
-48. GravityAcc-mad()-Y
-49. tGravityAcc-mad()-Z
-50. tGravityAcc-max()-X
-51. tGravityAcc-max()-Y
-52. tGravityAcc-max()-Z
-53. tGravityAcc-min()-X
-54. tGravityAcc-min()-Y
-55. tGravityAcc-min()-Z
-56. tGravityAcc-sma()
-57. tGravityAcc-energy()-X
-58. tGravityAcc-energy()-Y
-59. tGravityAcc-energy()-Z
-60. tGravityAcc-iqr()-X
-61. tGravityAcc-iqr()-Y
-62. tGravityAcc-iqr()-Z
-63. tGravityAcc-entropy()-X
-64. tGravityAcc-entropy()-Y
-65. tGravityAcc-entropy()-Z
-66. tGravityAcc-arCoeff()-X,1
-67. tGravityAcc-arCoeff()-X,2
-68. tGravityAcc-arCoeff()-X,3
-69. tGravityAcc-arCoeff()-X,4
-70. tGravityAcc-arCoeff()-Y,1
-71. tGravityAcc-arCoeff()-Y,2
-72. tGravityAcc-arCoeff()-Y,3
-73. tGravityAcc-arCoeff()-Y,4
-74. tGravityAcc-arCoeff()-Z,1
-75. tGravityAcc-arCoeff()-Z,2
-76. tGravityAcc-arCoeff()-Z,3
-77. tGravityAcc-arCoeff()-Z,4
-78. tGravityAcc-correlation()-X,Y
-79. tGravityAcc-correlation()-X,Z
-80. tGravityAcc-correlation()-Y,Z
-81. tBodyAccJerk-mean()-X
-82. tBodyAccJerk-mean()-Y
-83. tBodyAccJerk-mean()-Z
-84. tBodyAccJerk-std()-X
-85. tBodyAccJerk-std()-Y
-86. tBodyAccJerk-std()-Z
-87. tBodyAccJerk-mad()-X
-88. tBodyAccJerk-mad()-Y
-89. tBodyAccJerk-mad()-Z
-90. tBodyAccJerk-max()-X
-91. tBodyAccJerk-max()-Y
-92. tBodyAccJerk-max()-Z
-93. tBodyAccJerk-min()-X
-94. tBodyAccJerk-min()-Y
-95. tBodyAccJerk-min()-Z
-96. tBodyAccJerk-sma()
-97. tBodyAccJerk-energy()-X
-98. tBodyAccJerk-energy()-Y
-99. tBodyAccJerk-energy()-Z
-100. tBodyAccJerk-iqr()-X
-101. tBodyAccJerk-iqr()-Y
-102. tBodyAccJerk-iqr()-Z
-103. tBodyAccJerk-entropy()-X
+38. tBodyAcc-correlation()-X,Y: correlation coefficient betweeen the time body accelation signals on X axis and the time body accelation signals on the Y axis
+39. tBodyAcc-correlation()-X,Z: correlation coefficient betweeen the time body accelation signals on X axis and the time body accelation signals on the z axis
+40. tBodyAcc-correlation()-Y,Z: orrelation coefficient betweeen the time body accelation signals on Yaxis and the time body accelation signals on the Z axis
+41. tGravityAcc-mean()-X: mean of time gravity accelation signals on X axis
+42. tGravityAcc-mean()-Y: mean of time gravity accelation signals on Y axis
+43. tGravityAcc-mean()-Z: mean of time gravity accelation signals on Z axis
+44. tGravityAcc-std()-X: standard deviation of time gravity accelation signals on X axis
+45. tGravityAcc-std()-Y: standard deviation of time gravity accelation signals on Y axis
+46. tGravityAcc-std()-Z: standard deviation of time gravity accelation signals on Z axis
+47. GravityAcc-mad()-X: median absolute deviation of time gravity accelation signals on X axis
+48. GravityAcc-mad()-Y: median absolute deviation of time gravity accelation signals on Y axis
+49. tGravityAcc-mad()-Z: median absolute deviation of time gravity accelation signals on Z axis
+50. tGravityAcc-max()-X: largest value of time gravity accelation signals on X axis
+51. tGravityAcc-max()-Y: largest value of time gravity accelation signals on Y axis
+52. tGravityAcc-max()-Z: largest value of time gravity accelation signals on Z axis
+53. tGravityAcc-min()-X: smallest value of time gravity accelation signals on X axis
+54. tGravityAcc-min()-Y: smallest value of time gravity accelation signals on Y axis
+55. tGravityAcc-min()-Z: smallest value of time gravity accelation signals on Z axis
+56. tGravityAcc-sma(): signal magnitude area for time gravity accelation signals 
+57. tGravityAcc-energy()-X: energy measure for time gravity accelation signals on X axis  
+58. tGravityAcc-energy()-Y: energy measure for time gravity accelation signals on Y axis 
+59. tGravityAcc-energy()-Z: energy measure for time gravity accelation signals on Z axis 
+60. tGravityAcc-iqr()-X: interquartile range for time gravity accelation signals on X axis
+61. tGravityAcc-iqr()-Y: interquartile range for time gravity accelation signals on Y axis
+62. tGravityAcc-iqr()-Z: interquartile range for time gravity accelation signals on Z axis
+63. tGravityAcc-entropy()-X: entropy for time gravity accelation signals on X axis
+64. tGravityAcc-entropy()-Y: entropy for time gravity accelation signals on Y axis
+65. tGravityAcc-entropy()-Z: entropy for time gravity accelation signals on Z axis
+66. tGravityAcc-arCoeff()-X,1: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 1
+67. tGravityAcc-arCoeff()-X,2: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 2
+68. tGravityAcc-arCoeff()-X,3: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 3
+69. tGravityAcc-arCoeff()-X,4: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on X axis - 4
+70. tGravityAcc-arCoeff()-Y,1: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on Y axis - 1
+71. tGravityAcc-arCoeff()-Y,2: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on Y axis - 2
+72. tGravityAcc-arCoeff()-Y,3: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on Y axis - 3
+73. tGravityAcc-arCoeff()-Y,4: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on Y axis - 4
+74. tGravityAcc-arCoeff()-Z,1: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on Z axis - 1
+75. tGravityAcc-arCoeff()-Z,2: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on Z axis - 2
+76. tGravityAcc-arCoeff()-Z,3: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on Z axis - 3
+77. tGravityAcc-arCoeff()-Z,4: Autorregresion coefficients with Burg order equal to 4 for time gravity accelation signals on Z axis - 4
+78. tGravityAcc-correlation()-X,Y: correlation coefficient betweeen the time gravity accelation signals on X axis and the time gravity accelation signals on the Y axis
+79. tGravityAcc-correlation()-X,Z: orrelation coefficient betweeen the time gravity accelation signals on X axis and the time gravity accelation signals on the Z axis
+80. tGravityAcc-correlation()-Y,Z: orrelation coefficient betweeen the time gravity accelation signals on Y axis and the time gravity accelation signals on the Z axis
+81. tBodyAccJerk-mean()-X: mean of derived jerk signal for time body accelerations signals on X axis
+82. tBodyAccJerk-mean()-Y: mean of derived jerk signal for time body accelerations signals on Y axis
+83. tBodyAccJerk-mean()-Z: mean of derived jerk signal for time body accelerations signals on Z axis
+84. tBodyAccJerk-std()-X: standard deviation of derived jerk signal for time body accelerations signals on X axis
+85. tBodyAccJerk-std()-Y: standard deviation of derived jerk signal for time body accelerations signals on Y axis
+86. tBodyAccJerk-std()-Z: standard deviation of derived jerk signal for time body accelerations signals on Z axis
+87. tBodyAccJerk-mad()-X: median avbsolute deviation of derived jerk signal for time body accelerations signals on X axis
+88. tBodyAccJerk-mad()-Y: median avbsolute deviation of derived jerk signal for time body accelerations signals on Y axis
+89. tBodyAccJerk-mad()-Z: median avbsolute deviation of derived jerk signal for time body accelerations signals on Z axis
+90. tBodyAccJerk-max()-X: largest value of deviation of derived jerk signal for time body accelerations signals on X axis
+91. tBodyAccJerk-max()-Y: largest value of deviation of derived jerk signal for time body accelerations signals on Y axis
+92. tBodyAccJerk-max()-Z: largest value of deviation of derived jerk signal for time body accelerations signals on Z axis
+93. tBodyAccJerk-min()-X: smallest value of deviation of derived jerk signal for time body accelerations signals on X axis
+94. tBodyAccJerk-min()-Y: smallest value of deviation of derived jerk signal for time body accelerations signals on Y axis
+95. tBodyAccJerk-min()-Z: smallest value of deviation of derived jerk signal for time body accelerations signals on Z axis
+96. tBodyAccJerk-sma(): signal magnitude area for derived jerk signals for time body accelation signals  
+97. tBodyAccJerk-energy()-X: energy measure for derived jerk signals for time body accelation signals on X axis  
+98. tBodyAccJerk-energy()-Y: energy measure for derived jerk signals for time body accelation signals on Y axis  
+99. tBodyAccJerk-energy()-Z: energy measure for derived jerk signals for time body accelation signals on Z axis  
+100. tBodyAccJerk-iqr()-X: interquartile range for derived jerk signals for time gravity accelation signals on X axis
+101. tBodyAccJerk-iqr()-Y: interquartile range for derived jerk signals for time gravity accelation signals on Y axis
+102. tBodyAccJerk-iqr()-Z: interquartile range for derived jerk signals for time gravity accelation signals on Z axis
+103. tBodyAccJerk-entropy()-X 
 104. tBodyAccJerk-entropy()-Y
 105. tBodyAccJerk-entropy()-Z
 106. tBodyAccJerk-arCoeff()-X,1
