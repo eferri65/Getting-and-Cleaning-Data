@@ -7,16 +7,15 @@ This Readme is divided in the following sections:
 1. Content of `Getting-and-Cleaning-Data repo`
 2. Instructions on how to run the script named `run_analysis.R`
 
-
 ###1. Content of `Getting-and-Cleaning-Data repo`
 
-As required by the assignment, this repo contains the following files:
+As required by the assignment, the `Getting-and-Cleaning-Data repo` contains the following files:
 
-1. This `Readme` markdown file: it describes how to run the R script included in the repo and summarizes what you will find in the Codebook
+1. This `Readme` markdown file: it gives you a roadmap of the repo and describes how to run the R script included in the repo  
 2. An R script named `run_analysis.R`: the script used to generate the final tidy data set required by the project
 3. A markdown file called `Codebook`: it describes the tidy data set, why it is tidy and the definition of the ciolumns in the final dataset
  
-###Instructions on how to run the script named `run_analysis.R`
+###2. Instructions on how to run the script named `run_analysis.R`
 
 Assumptions: 
 
@@ -120,9 +119,6 @@ Here is the result of `str(tt_subset_summary)`, where `tt_subset_summary` is the
     $ SummaryMean_ fBodyBodyGyroJerkMag-meanFreq(): num  0.1765 0.2648 0.1107 0.2029 0.0247 ...
 > 
 
-###Details on the data set
-Please read the Codebook located in this repo
- 
 
  
  
