@@ -7,8 +7,8 @@ This Codebook is divided into the following sections:
 
 1. Column filters from the initial downloaded data to final dataset
 2. Column descriptions for the final dataset
-2. Is the final dataset tidy?
-3. Evolution from Raw Data to final dataset; some information is sourced from  `feautures_info.text`
+3. Is the final dataset tidy?
+4. Evolution from Raw Data to final dataset; some information is sourced from  `feautures_info.text`
 
 ###1. Column filters from the downloaded data to final set
 Per step 5 of the instructions, the final dataset created by the R script named `run_analysis.R`, is intended to be an independent tidy data set with the `average of each variable for each activity and each subject`.
@@ -62,7 +62,7 @@ ranges from 1 to 30; in R is implemented as an int =  1 2 3 4 5 6 7 8 9 10 ...30
     
 `SummaryMean_ tBodyAcc-mean()-X` is the calculated summary mean of `tBodyAcc-mean()-X` by Activity by Subject
     
-Find below the definitions of the variable names for which the SummaryMean_ are computed; they all are num:   
+Find below the definitions of the variable names for which the SummaryMean_ are computed; they all are num (numeric):   
 
  1. tBodyAcc-mean()-X:  mean of time body accelation signals on X axis              
  2. tBodyAcc-mean()-Y:  mean of time body accelation signals on Y axis               
@@ -156,12 +156,11 @@ refer to the paper from and the thread
 
 ###3. Evolution from Raw Data to final dataset; some information is sourced from  `feautures_info.ext`
 
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals `tAcc-XYZ` and `tGyro-XYZ`. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (`tBodyAcc-XYZ` and `tGravityAcc-XYZ`) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
-The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (`tBodyAccJerk-XYZ` and `tBodyGyroJerk-XYZ`). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (`tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag`). 
 
-Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
-
-Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing `fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag`. (Note the 'f' to indicate frequency domain signals). 
 
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions:
@@ -212,4 +211,6 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 * tBodyGyroMean
 * tBodyGyroJerkMean
 
-The complete list of 561 variables of each feature vector is in 'features.txt' 
+The complete list of 561 variables of each feature vector is in 'features.txt'.
+
+I observed there are duplicate column names although the values are different. I am not including the analysis because the assignment is asking to focus on other columns.
