@@ -19,23 +19,21 @@ There are 81 columns, acoording to the following breakdown:
 * 1 Column =  Subject
 * 79 Columns = Summary Means for 79 variables.
 
-<!-- -->
-    Activity: describes the activity perfomed during the experiment; it is descriptive and in R 
-    is implemented as Factor w/ 6 levels: 
-        1. WALKING
-        2. WALKING_UPSTAIR
-        3. WALKING_DOWNSTAIRS
-        4. SITTING
-        5. STANDING
-        6. LAYING
-        
-    Subject: identifies the individual (aka Subject) who is performing the Activity; it is a numeric id which
-    ranges from 1 to 30; in R is implemente as an int =  1 2 3 4 5 6 7 8 9 10 ...30
+`Activity`: describes the activity perfomed during the experiment; it is descriptive and in R 
+is implemented as Factor w/ 6 levels: 
+1. WALKING
+2. WALKING_UPSTAIR
+3. WALKING_DOWNSTAIRS
+4. SITTING
+5. STANDING
+6. LAYING
+
+`Subject`: identifies the individual (aka Subject) who is performing the Activity; it is a numeric id which
+ranges from 1 to 30; in R is implemente as an int =  1 2 3 4 5 6 7 8 9 10 ...30
     
-    All the remaining 79 columns are computed means; they all have the prefix SummaryMean_ to indicate that they are
-   summary means of the variable names captured in the caracted sting that follws the prefix. For Example:
+'SummayMean_...`: All the remaining 79 columns are computed means; they all have the prefix SummaryMean_ to indicate that they aresummary means of the variable names captured in the caracted sting that follws the prefix. For Example:
     
-   SummaryMean_ tBodyAcc-mean()-X ids the summary mean of tBodyAcc-mean()-X 
+`SummaryMean_ tBodyAcc-mean()-X` is the calculated summary mean of `tBodyAcc-mean()-X` 
     
     
     
